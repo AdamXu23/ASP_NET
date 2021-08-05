@@ -57,3 +57,5 @@ C:\Users\Administrator\Documents\GitHub\ASP_NET\FirstAjax\FirstAjax\obj\Debug\Fi
 C:\Users\Administrator\Documents\GitHub\ASP_NET\FirstAjax\FirstAjax\obj\Debug\FirstAjax.csproj.CopyComplete
 C:\Users\Administrator\Documents\GitHub\ASP_NET\FirstAjax\FirstAjax\obj\Debug\FirstAjax.dll
 C:\Users\Administrator\Documents\GitHub\ASP_NET\FirstAjax\FirstAjax\obj\Debug\FirstAjax.pdb
+C:\Users\Administrator\Documents\GitHub\ASP_NET\FirstAjax\FirstAjax\obj\Debug\FirstAjax.Default.resources
+C:\Users\Administrator\Documents\GitHub\ASP_NET\FirstAjax\FirstAjax\obj\Debug\FirstAjax.csproj.GenerateResource.cache
