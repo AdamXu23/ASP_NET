@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "JUcdLBpJW1DWkfSye9P1++BFV4Jyfpv/NrdI/DERHeg=",
+  "Hash": "L95qvTr8fBdT7/VqGmuJ4tBLsRYLa+QVr7DmIFbhkBo=",
   "Source": "CoreMvc3_firstMVC_TEST",
   "BasePath": "_content/CoreMvc3_firstMVC_TEST",
   "Mode": "Default",
@@ -83,40 +83,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
-    },
-    {
-      "Identity": "C:\\Users\\Administrator\\Documents\\GitHub\\ASP_NET\\ASP_NET_Core\\Chapter02\\CoreMvc3_firstMVC_TEST\\CoreMvc3_firstMVC_TEST\\wwwroot\\ferrari.jpg",
-      "SourceId": "CoreMvc3_firstMVC_TEST",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Administrator\\Documents\\GitHub\\ASP_NET\\ASP_NET_Core\\Chapter02\\CoreMvc3_firstMVC_TEST\\CoreMvc3_firstMVC_TEST\\wwwroot\\",
-      "BasePath": "_content/CoreMvc3_firstMVC_TEST",
-      "RelativePath": "ferrari.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\ferrari.jpg"
-    },
-    {
-      "Identity": "C:\\Users\\Administrator\\Documents\\GitHub\\ASP_NET\\ASP_NET_Core\\Chapter02\\CoreMvc3_firstMVC_TEST\\CoreMvc3_firstMVC_TEST\\wwwroot\\ferrari_small.jpg",
-      "SourceId": "CoreMvc3_firstMVC_TEST",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Administrator\\Documents\\GitHub\\ASP_NET\\ASP_NET_Core\\Chapter02\\CoreMvc3_firstMVC_TEST\\CoreMvc3_firstMVC_TEST\\wwwroot\\",
-      "BasePath": "_content/CoreMvc3_firstMVC_TEST",
-      "RelativePath": "ferrari_small.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\ferrari_small.jpg"
     },
     {
       "Identity": "C:\\Users\\Administrator\\Documents\\GitHub\\ASP_NET\\ASP_NET_Core\\Chapter02\\CoreMvc3_firstMVC_TEST\\CoreMvc3_firstMVC_TEST\\wwwroot\\images\\ferrari.jpg",
