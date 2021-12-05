@@ -4,7 +4,7 @@
     <TargetFramework>net6.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
-    <UserSecretsId>aspnet-CoreMvc3_Identity_TEST_2022-ADD49CCB-F161-4790-9449-6C070245A79B</UserSecretsId>
+    <UserSecretsId>aspnet-CoreMvc3_Identity_TEST_2022-E1FE0910-7A6B-4380-95D0-6F70CDB60FC6</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
