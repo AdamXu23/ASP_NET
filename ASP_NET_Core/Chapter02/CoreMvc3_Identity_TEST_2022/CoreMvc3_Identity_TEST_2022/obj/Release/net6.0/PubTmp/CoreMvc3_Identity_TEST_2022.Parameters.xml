@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="Default Web Site/firstMVC" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^D:\\GitHub\\ASP_NET\\ASP_NET_Core\\Chapter02\\CoreMvc3_Identity_TEST_2022\\CoreMvc3_Identity_TEST_2022\\obj\\Release\\net6\.0\\PubTmp\\Out\\$" />
+  </parameter>
+</parameters>
