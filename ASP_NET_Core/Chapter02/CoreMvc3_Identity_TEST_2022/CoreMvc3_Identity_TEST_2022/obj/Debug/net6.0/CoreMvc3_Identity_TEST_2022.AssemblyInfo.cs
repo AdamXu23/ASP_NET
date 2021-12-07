@@ -12,7 +12,7 @@ using System;
 using System.Reflection;
 
 [assembly: Microsoft.AspNetCore.Identity.UI.UIFrameworkAttribute("Bootstrap5")]
-[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("aspnet-CoreMvc3_Identity_TEST_2022-E1FE0910-7A6B-4380-95D0-6F70CDB60FC6")]
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("aspnet-CoreMvc3_Identity_TEST_2022-A72D8C8E-5356-4BF4-A7B1-7DA9ECB64335")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("CoreMvc3_Identity_TEST_2022")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]

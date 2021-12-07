@@ -4,7 +4,7 @@
     <TargetFramework>net6.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
-    <UserSecretsId>aspnet-CoreMvc3_Identity_TEST_2022-E1FE0910-7A6B-4380-95D0-6F70CDB60FC6</UserSecretsId>
+    <UserSecretsId>aspnet-CoreMvc3_Identity_TEST_2022-A72D8C8E-5356-4BF4-A7B1-7DA9ECB64335</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
@@ -13,7 +13,6 @@
     <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="6.0.0" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.0" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.0" />
-    <PackageReference Include="Microsoft.Web.LibraryManager.Build" Version="2.1.113" />
   </ItemGroup>
 
 </Project>
