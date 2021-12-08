@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<sitemanifest>
+  <IisApp path="C:\Users\Administrator\Documents\GitHub\ASP_NET\ASP_NET_Core\Chapter02\CoreMvc3_Identity_TEST_2022\CoreMvc3_Identity_TEST_2022\obj\Release\net6.0\PubTmp\Out\" />
+  <dbfullsql path="C:\Users\Administrator\Documents\GitHub\ASP_NET\ASP_NET_Core\Chapter02\CoreMvc3_Identity_TEST_2022\CoreMvc3_Identity_TEST_2022\obj\Release\net6.0\PubTmp\EFSQLScripts\CoreMvc3_Identity_TEST_2022.Data.ApplicationDbContext.sql" />
+</sitemanifest>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+此檔案由您的 Web 專案發佈/封裝處理序使用。您可以藉由編輯此 MSBuild 檔案，
+自訂此處理序的行為。若要深入了解，請前往 https://go.microsoft.com/fwlink/?LinkID=208121。 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword />
+    <History>True|2021-12-08T03:44:00.1999861Z;True|2021-12-08T11:05:21.9339244+08:00;</History>
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DefaultConnection">
+      <Value>Data Source=DESKTOP-IFL6CSI\MSSQLSERVER_2019%3bInitial Catalog=aspnet-CoreMvc3_Identity_TEST_2022-A72D8C8E-5356-4BF4-A7B1-7DA9ECB64335%3bPersist Security Info=True%3bUser ID=sa%3bPassword=Xsz19930323-</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="CoreMvc3_Identity_TEST_2022.Data.ApplicationDbContext">
+      <Value>Data Source=DESKTOP-IFL6CSI\MSSQLSERVER_2019%3bInitial Catalog=aspnet-CoreMvc3_Identity_TEST_2022-A72D8C8E-5356-4BF4-A7B1-7DA9ECB64335%3bPersist Security Info=True%3bUser ID=sa%3bPassword=Xsz19930323-</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>
