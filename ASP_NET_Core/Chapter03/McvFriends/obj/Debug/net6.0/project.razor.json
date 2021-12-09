@@ -1,5 +1,5 @@
 {
-  "FilePath": "c:\\Users\\Administrator\\Documents\\GitHub\\ASP_NET\\ASP_NET_Core\\Chapter03\\McvFriends\\McvFriends.csproj",
+  "FilePath": "c:\\Users\\xsz19\\Documents\\GitHub\\ASP_NET\\ASP_NET_Core\\Chapter03\\McvFriends\\McvFriends.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "6.0",
@@ -16298,38 +16298,63 @@
   "RootNamespace": "McvFriends",
   "Documents": [
     {
-      "FilePath": "c:\\Users\\Administrator\\Documents\\GitHub\\ASP_NET\\ASP_NET_Core\\Chapter03\\McvFriends\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-      "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FilePath": "c:\\Users\\xsz19\\Documents\\GitHub\\ASP_NET\\ASP_NET_Core\\Chapter03\\McvFriends\\Views\\Friends\\Create.cshtml",
+      "TargetPath": "Views\\Friends\\Create.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\Administrator\\Documents\\GitHub\\ASP_NET\\ASP_NET_Core\\Chapter03\\McvFriends\\Views\\Shared\\_Layout.cshtml",
-      "TargetPath": "Views\\Shared\\_Layout.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Administrator\\Documents\\GitHub\\ASP_NET\\ASP_NET_Core\\Chapter03\\McvFriends\\Views\\_ViewImports.cshtml",
-      "TargetPath": "Views\\_ViewImports.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Administrator\\Documents\\GitHub\\ASP_NET\\ASP_NET_Core\\Chapter03\\McvFriends\\Views\\Home\\Privacy.cshtml",
-      "TargetPath": "Views\\Home\\Privacy.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Administrator\\Documents\\GitHub\\ASP_NET\\ASP_NET_Core\\Chapter03\\McvFriends\\Views\\Home\\Index.cshtml",
+      "FilePath": "c:\\Users\\xsz19\\Documents\\GitHub\\ASP_NET\\ASP_NET_Core\\Chapter03\\McvFriends\\Views\\Home\\Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\Administrator\\Documents\\GitHub\\ASP_NET\\ASP_NET_Core\\Chapter03\\McvFriends\\Views\\_ViewStart.cshtml",
+      "FilePath": "c:\\Users\\xsz19\\Documents\\GitHub\\ASP_NET\\ASP_NET_Core\\Chapter03\\McvFriends\\Views\\Shared\\Error.cshtml",
+      "TargetPath": "Views\\Shared\\Error.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\xsz19\\Documents\\GitHub\\ASP_NET\\ASP_NET_Core\\Chapter03\\McvFriends\\Views\\Friends\\Delete.cshtml",
+      "TargetPath": "Views\\Friends\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\xsz19\\Documents\\GitHub\\ASP_NET\\ASP_NET_Core\\Chapter03\\McvFriends\\Views\\Friends\\Index.cshtml",
+      "TargetPath": "Views\\Friends\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\xsz19\\Documents\\GitHub\\ASP_NET\\ASP_NET_Core\\Chapter03\\McvFriends\\Views\\Home\\Privacy.cshtml",
+      "TargetPath": "Views\\Home\\Privacy.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\xsz19\\Documents\\GitHub\\ASP_NET\\ASP_NET_Core\\Chapter03\\McvFriends\\Views\\Friends\\Edit.cshtml",
+      "TargetPath": "Views\\Friends\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\xsz19\\Documents\\GitHub\\ASP_NET\\ASP_NET_Core\\Chapter03\\McvFriends\\Views\\_ViewImports.cshtml",
+      "TargetPath": "Views\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\xsz19\\Documents\\GitHub\\ASP_NET\\ASP_NET_Core\\Chapter03\\McvFriends\\Views\\_ViewStart.cshtml",
       "TargetPath": "Views\\_ViewStart.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\Administrator\\Documents\\GitHub\\ASP_NET\\ASP_NET_Core\\Chapter03\\McvFriends\\Views\\Shared\\Error.cshtml",
-      "TargetPath": "Views\\Shared\\Error.cshtml",
+      "FilePath": "c:\\Users\\xsz19\\Documents\\GitHub\\ASP_NET\\ASP_NET_Core\\Chapter03\\McvFriends\\Views\\Friends\\Details.cshtml",
+      "TargetPath": "Views\\Friends\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\xsz19\\Documents\\GitHub\\ASP_NET\\ASP_NET_Core\\Chapter03\\McvFriends\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\xsz19\\Documents\\GitHub\\ASP_NET\\ASP_NET_Core\\Chapter03\\McvFriends\\Views\\Shared\\_Layout.cshtml",
+      "TargetPath": "Views\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"
     }
   ],
