@@ -1,0 +1,1 @@
+dotnet aspnet-codegenerator controller -h
