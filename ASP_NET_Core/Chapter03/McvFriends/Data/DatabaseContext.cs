@@ -1,6 +1,7 @@
 using System.Reflection.Emit;
 using Microsoft.EntityFrameworkCore;
 using McvFriends.Models;
+
 namespace McvFriends.Data
 {
     public class DatabaseContext:DbContext
@@ -8,7 +9,7 @@ namespace McvFriends.Data
         public DatabaseContext(DbContextOptions<DatabaseContext> options):
             base(options){}
         public DbSet<Friend> Friends{get;set;}
-        protected override void OnModelCreating(ModuleBuilder modulebuilder)
+        protected override void OnModelCreating(ModelBuilder  modulebuilder)
         {
             modulebuilder.Entity<Friend>().HasData(
                 new Friend{id = 1 ,Name="Mary",Email="Mary@gmail.com",Mobile="0922-355822"},
