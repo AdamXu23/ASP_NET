@@ -8,57 +8,57 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = McvFriends
 build_property.RootNamespace = McvFriends
-build_property.ProjectDir = C:\Users\xsz19\Documents\GitHub\ASP_NET\ASP_NET_Core\Chapter03\McvFriends\
+build_property.ProjectDir = c:\Users\xsz19\Documents\GitHub\ASP_NET\ASP_NET_Core\Chapter03\McvFriends\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\xsz19\Documents\GitHub\ASP_NET\ASP_NET_Core\Chapter03\McvFriends
+build_property.MSBuildProjectDirectory = c:\Users\xsz19\Documents\GitHub\ASP_NET\ASP_NET_Core\Chapter03\McvFriends
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/xsz19/Documents/GitHub/ASP_NET/ASP_NET_Core/Chapter03/McvFriends/Views/Friends/Create.cshtml]
+[c:/Users/xsz19/Documents/GitHub/ASP_NET/ASP_NET_Core/Chapter03/McvFriends/Views/Friends/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRnJpZW5kc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/xsz19/Documents/GitHub/ASP_NET/ASP_NET_Core/Chapter03/McvFriends/Views/Friends/Delete.cshtml]
+[c:/Users/xsz19/Documents/GitHub/ASP_NET/ASP_NET_Core/Chapter03/McvFriends/Views/Friends/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRnJpZW5kc1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/xsz19/Documents/GitHub/ASP_NET/ASP_NET_Core/Chapter03/McvFriends/Views/Friends/Details.cshtml]
+[c:/Users/xsz19/Documents/GitHub/ASP_NET/ASP_NET_Core/Chapter03/McvFriends/Views/Friends/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRnJpZW5kc1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/xsz19/Documents/GitHub/ASP_NET/ASP_NET_Core/Chapter03/McvFriends/Views/Friends/Edit.cshtml]
+[c:/Users/xsz19/Documents/GitHub/ASP_NET/ASP_NET_Core/Chapter03/McvFriends/Views/Friends/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRnJpZW5kc1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/xsz19/Documents/GitHub/ASP_NET/ASP_NET_Core/Chapter03/McvFriends/Views/Friends/Index.cshtml]
+[c:/Users/xsz19/Documents/GitHub/ASP_NET/ASP_NET_Core/Chapter03/McvFriends/Views/Friends/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRnJpZW5kc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/xsz19/Documents/GitHub/ASP_NET/ASP_NET_Core/Chapter03/McvFriends/Views/Home/Index.cshtml]
+[c:/Users/xsz19/Documents/GitHub/ASP_NET/ASP_NET_Core/Chapter03/McvFriends/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/xsz19/Documents/GitHub/ASP_NET/ASP_NET_Core/Chapter03/McvFriends/Views/Home/Privacy.cshtml]
+[c:/Users/xsz19/Documents/GitHub/ASP_NET/ASP_NET_Core/Chapter03/McvFriends/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/xsz19/Documents/GitHub/ASP_NET/ASP_NET_Core/Chapter03/McvFriends/Views/Shared/Error.cshtml]
+[c:/Users/xsz19/Documents/GitHub/ASP_NET/ASP_NET_Core/Chapter03/McvFriends/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/xsz19/Documents/GitHub/ASP_NET/ASP_NET_Core/Chapter03/McvFriends/Views/Shared/_ValidationScriptsPartial.cshtml]
+[c:/Users/xsz19/Documents/GitHub/ASP_NET/ASP_NET_Core/Chapter03/McvFriends/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/xsz19/Documents/GitHub/ASP_NET/ASP_NET_Core/Chapter03/McvFriends/Views/_ViewImports.cshtml]
+[c:/Users/xsz19/Documents/GitHub/ASP_NET/ASP_NET_Core/Chapter03/McvFriends/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/xsz19/Documents/GitHub/ASP_NET/ASP_NET_Core/Chapter03/McvFriends/Views/_ViewStart.cshtml]
+[c:/Users/xsz19/Documents/GitHub/ASP_NET/ASP_NET_Core/Chapter03/McvFriends/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/xsz19/Documents/GitHub/ASP_NET/ASP_NET_Core/Chapter03/McvFriends/Views/Shared/_Layout.cshtml]
+[c:/Users/xsz19/Documents/GitHub/ASP_NET/ASP_NET_Core/Chapter03/McvFriends/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-n3pchhonxe
