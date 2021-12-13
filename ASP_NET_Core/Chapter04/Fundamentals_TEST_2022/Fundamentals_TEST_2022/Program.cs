@@ -65,6 +65,8 @@ var app = builder.Build();
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
+    app.UseDeveloperExceptionPage();
+    app.UseDatabaseErrorPage();
     app.UseMigrationsEndPoint();
 }
 else
@@ -77,10 +79,14 @@ else
 app.UseHttpsRedirection();
 app.UseStaticFiles();
 
+app.UseCookiePolicy();
+
 app.UseRouting();
 
 app.UseAuthentication();
 app.UseAuthorization();
+
+app.UseSession();
 
 app.MapControllerRoute(
     name: "default",
