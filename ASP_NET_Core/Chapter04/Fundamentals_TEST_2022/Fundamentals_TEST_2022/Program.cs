@@ -7,13 +7,13 @@ using Microsoft.EntityFrameworkCore;
 var builder = WebApplication.CreateBuilder(args);
 
 Dictionary<string, string> dictEmployees = new Dictionary<string, string>
-        {
+{
                 {"Asia:employees:1", "Mary"},
                 {"Asia:employees:2", "John"},
                 {"Asia:employees:3", "Kevin"},
                 {"Asia:employees:4", "David"},
                 {"Asia:employees:5", "Rose"}
-        };
+};
 
 //Set host configuration
 
