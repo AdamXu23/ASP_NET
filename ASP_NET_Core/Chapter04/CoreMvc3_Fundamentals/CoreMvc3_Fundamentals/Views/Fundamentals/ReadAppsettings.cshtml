@@ -1,0 +1,20 @@
+﻿@using Microsoft.Extensions.Configuration
+@inject IConfiguration configuration
+
+
+@{
+    ViewData["Title"] = "ReadAppsettings";
+}
+
+<div class="jumbotron bg-info">
+    <h1>讀取appsettings.json組態設定值</h1>
+</div>
+
+<p>DatabaseContext資料庫連線 : @configuration["ConnectionStrings:DatabaseContext"]</p>
+
+Developer資訊如下:
+<ul>
+    <li>Name : @(configuration.GetValue<string>("Developer:Name"))</li>
+    <li>Email: @(configuration.GetValue<string>("Developer:Email", "找不到Email"))</li>
+    <li>Website: @(configuration.GetSection("Developer:Website").Value)</li>
+</ul>

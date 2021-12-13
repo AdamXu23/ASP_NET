@@ -1,0 +1,910 @@
+Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager Information: 0 : User profile is available. Using 'C:\Users\apple\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+Microsoft.Hosting.Lifetime Information: 0 : Now listening on: https://localhost:5001
+Microsoft.Hosting.Lifetime Information: 0 : Now listening on: http://localhost:5000
+Microsoft.Hosting.Lifetime Information: 0 : Application started. Press Ctrl+C to shut down.
+Microsoft.Hosting.Lifetime Information: 0 : Hosting environment: Development
+Microsoft.Hosting.Lifetime Information: 0 : Content root path: Y:\CoreMvc3Examples\CoreMvc3_Fundamentals\CoreMvc3_Fundamentals
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 1 : Request starting HTTP/2 GET https://localhost:5001/Home/index  
+Microsoft.AspNetCore.Routing.EndpointMiddleware Information: 0 : Executing endpoint 'CoreMvc3_Fundamentals.Controllers.HomeController.Index (CoreMvc3_Fundamentals)'
+Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Information: 3 : Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CoreMvc3_Fundamentals.Controllers.HomeController (CoreMvc3_Fundamentals).
+CoreMvc3_Fundamentals.Controllers.HomeController Warning: 12345 : Logging記錄資訊- Home/Index被呼叫
+Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor Information: 1 : Executing ViewResult, running view Index.
+Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor Information: 4 : Executed ViewResult - view Index executed in 157.9212ms.
+Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Information: 2 : Executed action CoreMvc3_Fundamentals.Controllers.HomeController.Index (CoreMvc3_Fundamentals) in 215.2752ms
+Microsoft.AspNetCore.Routing.EndpointMiddleware Information: 1 : Executed endpoint 'CoreMvc3_Fundamentals.Controllers.HomeController.Index (CoreMvc3_Fundamentals)'
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 2 : Request finished in 356.50010000000003ms 200 text/html; charset=utf-8
+Microsoft.Hosting.Lifetime Information: 0 : Application is shutting down...
+Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager Information: 0 : User profile is available. Using 'C:\Users\apple\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+Microsoft.Hosting.Lifetime Information: 0 : Now listening on: https://localhost:5001
+Microsoft.Hosting.Lifetime Information: 0 : Now listening on: http://localhost:5000
+Microsoft.Hosting.Lifetime Information: 0 : Application started. Press Ctrl+C to shut down.
+Microsoft.Hosting.Lifetime Information: 0 : Hosting environment: Development
+Microsoft.Hosting.Lifetime Information: 0 : Content root path: Y:\CoreMvc3Examples\CoreMvc3_Fundamentals\CoreMvc3_Fundamentals
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 1 : Request starting HTTP/2 GET https://localhost:5001/Home/index  
+Microsoft.AspNetCore.Routing.EndpointMiddleware Information: 0 : Executing endpoint 'CoreMvc3_Fundamentals.Controllers.HomeController.Index (CoreMvc3_Fundamentals)'
+Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Information: 3 : Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CoreMvc3_Fundamentals.Controllers.HomeController (CoreMvc3_Fundamentals).
+CoreMvc3_Fundamentals.Controllers.HomeController Warning: 1234 : Logging記錄資訊- Home/Index被呼叫
+Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor Information: 1 : Executing ViewResult, running view Index.
+Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor Information: 4 : Executed ViewResult - view Index executed in 327.03090000000003ms.
+Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Information: 2 : Executed action CoreMvc3_Fundamentals.Controllers.HomeController.Index (CoreMvc3_Fundamentals) in 403.76120000000003ms
+Microsoft.AspNetCore.Routing.EndpointMiddleware Information: 1 : Executed endpoint 'CoreMvc3_Fundamentals.Controllers.HomeController.Index (CoreMvc3_Fundamentals)'
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 2 : Request finished in 583.3201ms 200 text/html; charset=utf-8
+Microsoft.Hosting.Lifetime Information: 0 : Application is shutting down...
+Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager Information: 0 : User profile is available. Using 'C:\Users\apple\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+Microsoft.Hosting.Lifetime Information: 0 : Application started. Press Ctrl+C to shut down.
+Microsoft.Hosting.Lifetime Information: 0 : Hosting environment: Development
+Microsoft.Hosting.Lifetime Information: 0 : Content root path: Y:\CoreMvc3Examples\CoreMvc3_Fundamentals\CoreMvc3_Fundamentals
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 1 : Request starting HTTP/2.0 GET https://localhost:44348/  
+Microsoft.AspNetCore.Routing.EndpointMiddleware Information: 0 : Executing endpoint 'CoreMvc3_Fundamentals.Controllers.HomeController.Index (CoreMvc3_Fundamentals)'
+Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Information: 3 : Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CoreMvc3_Fundamentals.Controllers.HomeController (CoreMvc3_Fundamentals).
+Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Information: 1 : Executing action method CoreMvc3_Fundamentals.Controllers.HomeController.Index (CoreMvc3_Fundamentals) - Validation state: Valid
+CoreMvc3_Fundamentals.Controllers.HomeController Warning: 1234 : Logging記錄資訊- Home/Index被呼叫
+Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Information: 2 : Executed action method CoreMvc3_Fundamentals.Controllers.HomeController.Index (CoreMvc3_Fundamentals), returned result Microsoft.AspNetCore.Mvc.ViewResult in 94.9233ms.
+Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor Information: 1 : Executing ViewResult, running view Index.
+Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor Information: 4 : Executed ViewResult - view Index executed in 1307.7585000000001ms.
+Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Information: 2 : Executed action CoreMvc3_Fundamentals.Controllers.HomeController.Index (CoreMvc3_Fundamentals) in 2344.4989ms
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 1 : Request starting HTTP/2.0 GET https://localhost:44348/lib/jquery/dist/jquery.min.js  
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 1 : Request starting HTTP/2.0 GET https://localhost:44348/css/site.css  
+Microsoft.AspNetCore.Routing.EndpointMiddleware Information: 1 : Executed endpoint 'CoreMvc3_Fundamentals.Controllers.HomeController.Index (CoreMvc3_Fundamentals)'
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 1 : Request starting HTTP/2.0 GET https://localhost:44348/lib/bootstrap/dist/css/bootstrap.min.css  
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 2 : Request finished in 3043.9099ms 200 text/html; charset=utf-8
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 1 : Request starting HTTP/2.0 GET https://localhost:44348/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0  
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 1 : Request starting HTTP/2.0 GET https://localhost:44348/lib/bootstrap/dist/js/bootstrap.bundle.min.js  
+Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware Information: 2 : Sending file. Request path: '/lib/jquery/dist/jquery.min.js'. Physical path: 'Y:\CoreMvc3Examples\CoreMvc3_Fundamentals\CoreMvc3_Fundamentals\wwwroot\lib\jquery\dist\jquery.min.js'
+Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware Information: 2 : Sending file. Request path: '/css/site.css'. Physical path: 'Y:\CoreMvc3Examples\CoreMvc3_Fundamentals\CoreMvc3_Fundamentals\wwwroot\css\site.css'
+Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware Information: 2 : Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'Y:\CoreMvc3Examples\CoreMvc3_Fundamentals\CoreMvc3_Fundamentals\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css'
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 2 : Request finished in 733.5878ms 200 application/javascript
+Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware Information: 2 : Sending file. Request path: '/js/site.js'. Physical path: 'Y:\CoreMvc3Examples\CoreMvc3_Fundamentals\CoreMvc3_Fundamentals\wwwroot\js\site.js'
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 2 : Request finished in 764.5949ms 200 text/css
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 2 : Request finished in 790.3406ms 200 text/css
+Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware Information: 2 : Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'. Physical path: 'Y:\CoreMvc3Examples\CoreMvc3_Fundamentals\CoreMvc3_Fundamentals\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js'
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 2 : Request finished in 397.32390000000004ms 200 application/javascript
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 2 : Request finished in 525.8455ms 200 application/javascript
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 1 : Request starting HTTP/2.0 GET https://localhost:44348/favicon.ico  
+Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware Information: 2 : Sending file. Request path: '/favicon.ico'. Physical path: 'Y:\CoreMvc3Examples\CoreMvc3_Fundamentals\CoreMvc3_Fundamentals\wwwroot\favicon.ico'
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 2 : Request finished in 82.35300000000001ms 200 image/x-icon
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 1 : Request starting HTTP/2.0 GET https://localhost:44348/Home/Index  
+Microsoft.AspNetCore.Routing.EndpointMiddleware Information: 0 : Executing endpoint 'CoreMvc3_Fundamentals.Controllers.HomeController.Index (CoreMvc3_Fundamentals)'
+Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Information: 3 : Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CoreMvc3_Fundamentals.Controllers.HomeController (CoreMvc3_Fundamentals).
+Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Information: 1 : Executing action method CoreMvc3_Fundamentals.Controllers.HomeController.Index (CoreMvc3_Fundamentals) - Validation state: Valid
+CoreMvc3_Fundamentals.Controllers.HomeController Warning: 1234 : Logging記錄資訊- Home/Index被呼叫
+Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Information: 2 : Executed action method CoreMvc3_Fundamentals.Controllers.HomeController.Index (CoreMvc3_Fundamentals), returned result Microsoft.AspNetCore.Mvc.ViewResult in 15.2292ms.
+Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor Information: 1 : Executing ViewResult, running view Index.
+Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor Information: 4 : Executed ViewResult - view Index executed in 52.971000000000004ms.
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 1 : Request starting HTTP/2.0 GET https://localhost:44348/lib/bootstrap/dist/js/bootstrap.bundle.min.js  
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 1 : Request starting HTTP/2.0 GET https://localhost:44348/css/site.css  
+Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Information: 2 : Executed action CoreMvc3_Fundamentals.Controllers.HomeController.Index (CoreMvc3_Fundamentals) in 272.4424ms
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 1 : Request starting HTTP/2.0 GET https://localhost:44348/lib/jquery/dist/jquery.min.js  
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 1 : Request starting HTTP/2.0 GET https://localhost:44348/lib/bootstrap/dist/css/bootstrap.min.css  
+Microsoft.AspNetCore.Routing.EndpointMiddleware Information: 1 : Executed endpoint 'CoreMvc3_Fundamentals.Controllers.HomeController.Index (CoreMvc3_Fundamentals)'
+Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware Information: 2 : Sending file. Request path: '/css/site.css'. Physical path: 'Y:\CoreMvc3Examples\CoreMvc3_Fundamentals\CoreMvc3_Fundamentals\wwwroot\css\site.css'
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 2 : Request finished in 704.0447ms 200 text/html; charset=utf-8
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 2 : Request finished in 343.1408ms 200 text/css
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 1 : Request starting HTTP/2.0 GET https://localhost:44348/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0  
+Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware Information: 2 : Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'. Physical path: 'Y:\CoreMvc3Examples\CoreMvc3_Fundamentals\CoreMvc3_Fundamentals\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js'
+Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware Information: 2 : Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'Y:\CoreMvc3Examples\CoreMvc3_Fundamentals\CoreMvc3_Fundamentals\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css'
+Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware Information: 2 : Sending file. Request path: '/lib/jquery/dist/jquery.min.js'. Physical path: 'Y:\CoreMvc3Examples\CoreMvc3_Fundamentals\CoreMvc3_Fundamentals\wwwroot\lib\jquery\dist\jquery.min.js'
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 2 : Request finished in 514.0181ms 200 application/javascript
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 2 : Request finished in 530.4406ms 200 text/css
+Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware Information: 2 : Sending file. Request path: '/js/site.js'. Physical path: 'Y:\CoreMvc3Examples\CoreMvc3_Fundamentals\CoreMvc3_Fundamentals\wwwroot\js\site.js'
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 2 : Request finished in 462.07980000000003ms 200 application/javascript
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 2 : Request finished in 362.20680000000004ms 200 application/javascript
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 1 : Request starting HTTP/2.0 GET https://localhost:44348/Home/Index  
+Microsoft.AspNetCore.Routing.EndpointMiddleware Information: 0 : Executing endpoint 'CoreMvc3_Fundamentals.Controllers.HomeController.Index (CoreMvc3_Fundamentals)'
+Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Information: 3 : Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CoreMvc3_Fundamentals.Controllers.HomeController (CoreMvc3_Fundamentals).
+Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Information: 1 : Executing action method CoreMvc3_Fundamentals.Controllers.HomeController.Index (CoreMvc3_Fundamentals) - Validation state: Valid
+CoreMvc3_Fundamentals.Controllers.HomeController Warning: 1234 : Logging記錄資訊- Home/Index被呼叫
+Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Information: 2 : Executed action method CoreMvc3_Fundamentals.Controllers.HomeController.Index (CoreMvc3_Fundamentals), returned result Microsoft.AspNetCore.Mvc.ViewResult in 20.0795ms.
+Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor Information: 1 : Executing ViewResult, running view Index.
+Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor Information: 4 : Executed ViewResult - view Index executed in 25.5213ms.
+Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Information: 2 : Executed action CoreMvc3_Fundamentals.Controllers.HomeController.Index (CoreMvc3_Fundamentals) in 202.10410000000002ms
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 1 : Request starting HTTP/2.0 GET https://localhost:44348/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0  
+Microsoft.AspNetCore.Routing.EndpointMiddleware Information: 1 : Executed endpoint 'CoreMvc3_Fundamentals.Controllers.HomeController.Index (CoreMvc3_Fundamentals)'
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 1 : Request starting HTTP/2.0 GET https://localhost:44348/lib/jquery/dist/jquery.min.js  
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 1 : Request starting HTTP/2.0 GET https://localhost:44348/css/site.css  
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 2 : Request finished in 586.6197000000001ms 200 text/html;Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager Information: 0 : User profile is available. Using 'C:\Users\apple\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+Microsoft.Hosting.Lifetime Information: 0 : Application started. Press Ctrl+C to shut down.
+Microsoft.Hosting.Lifetime Information: 0 : Hosting environment: Development
+Microsoft.Hosting.Lifetime Information: 0 : Content root path: Y:\CoreMvc3Examples\CoreMvc3_Fundamentals\CoreMvc3_Fundamentals
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 1 : Request starting HTTP/2.0 GET https://localhost:44348/  
+Microsoft.AspNetCore.Routing.EndpointMiddleware Information: 0 : Executing endpoint 'CoreMvc3_Fundamentals.Controllers.HomeController.Index (CoreMvc3_Fundamentals)'
+Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Information: 3 : Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CoreMvc3_Fundamentals.Controllers.HomeController (CoreMvc3_Fundamentals).
+Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Information: 1 : Executing action method CoreMvc3_Fundamentals.Controllers.HomeController.Index (CoreMvc3_Fundamentals) - Validation state: Valid
+CoreMvc3_Fundamentals.Controllers.HomeController Warning: 1234 : Logging記錄資訊- Home/Index被呼叫
+CoreMvc3_Fundamentals.Controllers.HomeController Warning: 1234 : Logging記錄資訊- Home/Index被呼叫
+Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Information: 2 : Executed action method CoreMvc3_Fundamentals.Controllers.HomeController.Index (CoreMvc3_Fundamentals), returned result Microsoft.AspNetCore.Mvc.ViewResult in 85.7445ms.
+Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor Information: 1 : Executing ViewResult, running view Index.
+Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor Information: 4 : Executed ViewResult - view Index executed in 1084.6209000000001ms.
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 1 : Request starting HTTP/2.0 GET https://localhost:44348/lib/bootstrap/dist/css/bootstrap.min.css  
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 1 : Request starting HTTP/2.0 GET https://localhost:44348/css/site.css  
+Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Information: 2 : Executed action CoreMvc3_Fundamentals.Controllers.HomeController.Index (CoreMvc3_Fundamentals) in 1815.1894ms
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 1 : Request starting HTTP/2.0 GET https://localhost:44348/lib/jquery/dist/jquery.min.js  
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 1 : Request starting HTTP/2.0 GET https://localhost:44348/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0  
+Microsoft.AspNetCore.Routing.EndpointMiddleware Information: 1 : Executed endpoint 'CoreMvc3_Fundamentals.Controllers.HomeController.Index (CoreMvc3_Fundamentals)'
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 2 : Request finished in 4566.6375ms 200 text/html; charset=utf-8
+Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware Information: 2 : Sending file. Request path: '/css/site.css'. Physical path: 'Y:\CoreMvc3Examples\CoreMvc3_Fundamentals\CoreMvc3_Fundamentals\wwwroot\css\site.css'
+Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware Information: 2 : Sending file. Request path: '/js/site.js'. Physical path: 'Y:\CoreMvc3Examples\CoreMvc3_Fundamentals\CoreMvc3_Fundamentals\wwwroot\js\site.js'
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 2 : Request finished in 572.9109000000001ms 200 application/javascript
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 2 : Request finished in 599.3151ms 200 text/css
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 1 : Request starting HTTP/2.0 GET https://localhost:44348/lib/bootstrap/dist/js/bootstrap.bundle.min.js  
+Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware Information: 2 : Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'. PhMicrosoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager Information: 0 : User profile is available. Using 'C:\Users\apple\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+Microsoft.Hosting.Lifetime Information: 0 : Application started. Press Ctrl+C to shut down.
+Microsoft.Hosting.Lifetime Information: 0 : Hosting environment: Development
+Microsoft.Hosting.Lifetime Information: 0 : Content root path: Y:\CoreMvc3Examples\CoreMvc3_Fundamentals\CoreMvc3_Fundamentals
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 1 : Request starting HTTP/2.0 GET https://localhost:44348/  
+Microsoft.AspNetCore.Routing.EndpointMiddleware Information: 0 : Executing endpoint 'CoreMvc3_Fundamentals.Controllers.HomeController.Index (CoreMvc3_Fundamentals)'
+Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Information: 3 : Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CoreMvc3_Fundamentals.Controllers.HomeController (CoreMvc3_Fundamentals).
+Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Information: 1 : Executing action method CoreMvc3_Fundamentals.Controllers.HomeController.Index (CoreMvc3_Fundamentals) - Validation state: Valid
+CoreMvc3_Fundamentals.Controllers.HomeController Warning: 1234 : Logging記錄資訊- Home/Index被呼叫
+CoreMvc3_Fundamentals.Controllers.HomeController Warning: 1234 : Logging記錄資訊- Home/Index被呼叫
+Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Information: 2 : Executed action method CoreMvc3_Fundamentals.Controllers.HomeController.Index (CoreMvc3_Fundamentals), returned result Microsoft.AspNetCore.Mvc.ViewResult in 80.7321ms.
+Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor Information: 1 : Executing ViewResult, running view Index.
+Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor Information: 4 : Executed ViewResult - view Index executed in 609.1333000000001ms.
+Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Information: 2 : Executed action CoreMvc3_Fundamentals.Controllers.HomeController.Index (CoreMvc3_Fundamentals) in 1506.6682ms
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 1 : Request starting HTTP/2.0 GET https://localhost:44348/css/site.css  
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 1 : Request starting HTTP/2.0 GET https://localhost:44348/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0  
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 1 : Request starting HTTP/2.0 GET https://localhost:44348/lib/jquery/dist/jquery.min.js  
+Microsoft.AspNetCore.Routing.EndpointMiddleware Information: 1 : Executed endpoint 'CoreMvc3_Fundamentals.Controllers.HomeController.Index (CoreMvc3_Fundamentals)'
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 2 : Request finished in 2513.1167ms 200 text/html; charset=utf-8
+Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware Information: 2 : Sending file. Request path: '/css/site.css'. Physical path: 'Y:\CoreMvc3Examples\CoreMvc3_Fundamentals\CoreMvc3_Fundamentals\wwwroot\css\site.css'
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 1 : Request starting HTTP/2.0 GET https://localhost:44348/lib/bootstrap/dist/css/bootstrap.min.css  
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 2 : Request finished in 610.2473ms 200 text/css
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 1 : Request starting HTTP/2.0 GET https://localhost:44348/lib/bootstrap/dist/js/bootstrap.bundle.min.js  
+Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware Information: 2 : Sending file. Request path: '/js/site.js'. Physical path: 'Y:\CoreMvc3Examples\CoreMvc3_Fundamentals\CoreMvc3_Fundamentals\wwwroot\js\site.js'
+Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware Information: 2 : Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'Y:\CoreMvc3Examples\CoreMvc3_Fundamentals\CoreMvc3_Fundamentals\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css'
+Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware Information: 2 : Sending file. Request path: '/lib/jquery/dist/jquery.min.js'. Physical path: 'Y:\CoreMvc3Examples\CoreMvc3_Fundamentals\CoreMvc3_Fundamentals\wwwroot\lib\jquery\dist\jquery.min.js'
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 2 : Request finished in 560.1819ms 200 text/css
+Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware Information: 2 : Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'. Physical path: 'Y:\CoreMvc3Examples\CoreMvc3_Fundamentals\CoreMvc3_Fundamentals\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js'
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 2 : Request finished in 1197.7448000000002ms 200 application/javascript
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 2 : Request finished in 761.3426000000001ms 200 application/javascript
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 2 : Request finished in 1296.4694ms 200 application/javascript
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 1 : Request starting HTTP/2.0 GET https://localhost:44348/Home/Index  
+Microsoft.AspNetCore.Routing.EndpointMiddleware Information: 0 : Executing endpoint 'CoreMvc3_Fundamentals.Controllers.HomeController.Index (CoreMvc3_Fundamentals)'
+Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Information: 3 : Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CoreMvc3_Fundamentals.Controllers.HomeController (CoreMvc3_Fundamentals).
+Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Information: 1 : Executing action method CoreMvc3_Fundamentals.Controllers.HomeController.Index (CoreMvc3_Fundamentals) - Validation state: Valid
+CoreMvc3_Fundamentals.Controllers.HomeController Warning: 1234 : Logging記錄資訊- Home/Index被呼叫
+CoreMvc3_Fundamentals.Controllers.HomeController Warning: 1234 : Logging記錄資訊- Home/Index被呼叫
+Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Information: 2 : Executed action method CoreMvc3_Fundamentals.Controllers.HomeController.Index (CoreMvc3_Fundamentals), returned result Microsoft.AspNetCore.Mvc.ViewResult in 40.6452ms.
+Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor Information: 1 : Executing ViewResult, running view Index.
+Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor Information: 4 : Executed ViewResult - view Index executed in 133.5799ms.
+Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Information: 2 : Executed action CoreMvc3_Fundamentals.Controllers.HomeController.Index (CoreMvc3_Fundamentals) in 466.33910000000003ms
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 1 : Request starting HTTP/2.0 GET https://localhost:44348/css/site.css  
+Microsoft.AspNetCore.Routing.EndpointMiddleware Information: 1 : Executed endpoint 'CoreMvc3_Fundamentals.Controllers.HomeController.Index (CoreMvc3_Fundamentals)'
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 1 : Request starting HTTP/2.0 GET https://localhost:44348/lib/bootstrap/dist/js/bootstrap.bundle.min.js  
+Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware Information: 2 : Sending file. Request path: '/css/site.css'. Physical path: 'Y:\CoreMvc3Examples\CoreMvc3_Fundamentals\CoreMvc3_Fundamentals\wwwroot\css\site.css'
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 2 : Request finished in 1014.1210000000001ms 200 text/html; charset=utf-8
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 2 : Request finished in 907.3468ms 200 text/css
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 1 : Request starting HTTP/2.0 GET https://localhost:44348/lib/bootstrap/dist/css/bootstrap.min.css  
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 1 : Request starting HTTP/2.0 GET https://localhost:44348/lib/jquery/dist/jquery.min.js  
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 1 : Request starting HTTP/2.0 GET https://localhost:44348/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0  
+Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware Information: 2 : Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'. Physical path: 'Y:\CoreMvc3Examples\CoreMvc3_Fundamentals\CoreMvc3_Fundamentals\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js'
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 2 : Request finished in 1298.0245ms 200 application/javascript
+Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware Information: 2 : Sending file. Request path: '/js/site.js'. Physical path: 'Y:\CoreMvc3Examples\CoreMvc3_Fundamentals\CoreMvc3_Fundamentals\wwwroot\js\site.js'
+Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware Information: 2 : Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'Y:\CoreMvc3Examples\CoreMvc3_Fundamentals\CoreMvc3_Fundamentals\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css'
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 2 : Request finished in 243.9607ms 200 application/javascript
+Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware Information: 2 : Sending file. Request path: '/lib/jquery/dist/jquery.min.js'. Physical path: 'Y:\CoreMvc3Examples\CoreMvc3_Fundamentals\CoreMvc3_Fundamentals\wwwroot\lib\jquery\dist\jquery.min.js'
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 2 : Request finished in 783.6486ms 200 text/css
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 2 : Request finished in 1479.7930000000001ms 200 application/javascript
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 1 : Request starting HTTP/2.0 GET https://localhost:44348/Home/Index  
+Microsoft.AspNetCore.Routing.EndpointMiddleware Information: 0 : Executing endpoint 'CoreMvc3_Fundamentals.Controllers.HomeController.Index (CoreMvc3_Fundamentals)'
+Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Information: 3 : Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CoreMvc3_Fundamentals.Controllers.HomeController (CoreMvc3_Fundamentals).
+Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Information: 1 : Executing action method CoreMvc3_Fundamentals.Controllers.HomeController.Index (CoreMvc3_Fundamentals) - Validation state: Valid
+CoreMvc3_Fundamentals.Controllers.HomeController Warning: 1234 : Logging記錄資訊- Home/Index被呼叫
+CoreMvc3_Fundamentals.Controllers.HomeController Warning: 1234 : Logging記錄資訊- Home/Index被呼叫
+Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Information: 2 : Executed action method CoreMvc3_Fundamentals.Controllers.HomeController.Index (CoreMvc3_Fundamentals), returned result Microsoft.AspNetCore.Mvc.ViewResult in 27.9925ms.
+Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor Information: 1 : Executing ViewResult, running view Index.
+Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor Information: 4 : Executed ViewResult - view Index executed in 36.035000000000004ms.
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 1 : Request starting HTTP/2.0 GET https://localhost:44348/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0  
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 1 : Request starting HTTP/2.0 GET https://localhost:44348/lib/jquery/dist/jquery.min.js  
+Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Information: 2 : Executed action CoreMvc3_Fundamentals.Controllers.HomeController.Index (CoreMvc3_Fundamentals) in 1670.2156ms
+Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware Information: 2 : Sending file. Request path: '/js/site.js'. Physical path: 'Y:\CoreMvc3Examples\CoreMvc3_Fundamentals\CoreMvc3_Fundamentals\wwwroot\js\site.js'
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 1 : Request starting HTTP/2.0 GET https://localhost:44348/lib/bootstrap/dist/js/bootstrap.bundle.min.js  
+Microsoft.AspNetCore.Routing.EndpointMiddleware Information: 1 : Executed endpoint 'CoreMvc3_Fundamentals.Controllers.HomeController.Index (CoreMvc3_Fundamentals)'
+Microsoft.AspNetCore.Hosting.DiagMicrosoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager Information: 0 : User profile is available. Using 'C:\Users\apple\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+Microsoft.Hosting.Lifetime Information: 0 : Now listening on: https://localhost:5001
+Microsoft.Hosting.Lifetime Information: 0 : Now listening on: http://localhost:5000
+Microsoft.Hosting.Lifetime Information: 0 : Application started. Press Ctrl+C to shut down.
+Microsoft.Hosting.Lifetime Information: 0 : Hosting environment: Development
+Microsoft.Hosting.Lifetime Information: 0 : Content root path: Y:\CoreMvc3Examples\CoreMvc3_Fundamentals\CoreMvc3_Fundamentals
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 1 : Request starting HTTP/2 GET https://localhost:5001/Home/index  
+Microsoft.AspNetCore.Routing.EndpointMiddleware Information: 0 : Executing endpoint 'CoreMvc3_Fundamentals.Controllers.HomeController.Index (CoreMvc3_Fundamentals)'
+Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Information: 3 : Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CoreMvc3_Fundamentals.Controllers.HomeController (CoreMvc3_Fundamentals).
+CoreMvc3_Fundamentals.Controllers.HomeController Verbose: 1234 : Logging記錄資訊- Home/Index被呼叫
+Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor Information: 1 : Executing ViewResult, running view Index.
+Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor Information: 4 : Executed ViewResult - view Index executed in 215.8587ms.
+Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Information: 2 : Executed action CoreMvc3_Fundamentals.Controllers.HomeController.Index (CoreMvc3_Fundamentals) in 262.9735ms
+Microsoft.AspNetCore.Routing.EndpointMiddleware Information: 1 : Executed endpoint 'CoreMvc3_Fundamentals.Controllers.HomeController.Index (CoreMvc3_Fundamentals)'
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 2 : Request finished in 406.7645ms 200 text/html; charset=utf-8
+Microsoft.Hosting.Lifetime Information: 0 : Application is shutting down...
+Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager Information: 0 : User profile is available. Using 'C:\Users\apple\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+Microsoft.Hosting.Lifetime Information: 0 : Now listening on: https://localhost:5001
+Microsoft.Hosting.Lifetime Information: 0 : Now listening on: http://localhost:5000
+Microsoft.Hosting.Lifetime Information: 0 : Application started. Press Ctrl+C to shut down.
+Microsoft.Hosting.Lifetime Information: 0 : Hosting environment: Development
+Microsoft.Hosting.Lifetime Information: 0 : Content root path: Y:\CoreMvc3Examples\CoreMvc3_Fundamentals\CoreMvc3_Fundamentals
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 1 : Request starting HTTP/2 GET https://localhost:5001/  
+Microsoft.AspNetCore.Routing.EndpointMiddleware Information: 0 : Executing endpoint 'CoreMvc3_Fundamentals.Controllers.HomeController.Index (CoreMvc3_Fundamentals)'
+Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Information: 3 : Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CoreMvc3_Fundamentals.Controllers.HomeController (CoreMvc3_Fundamentals).
+CoreMvc3_Fundamentals.Controllers.HomeController Verbose: 1234 : Logging - LogDebug()記錄資訊- Home/Index被呼叫
+Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor Information: 1 : Executing ViewResult, running view Index.
+Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor Information: 4 : Executed ViewResult - view Index executed in 201.5961ms.
+Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Information: 2 : Executed action CoreMvc3_Fundamentals.Controllers.HomeController.Index (CoreMvc3_Fundamentals) in 242.3934ms
+Microsoft.AspNetCore.Routing.EndpointMiddleware Information: 1 : Executed endpoint 'CoreMvc3_Fundamentals.Controllers.HomeController.Index (CoreMvc3_Fundamentals)'
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 2 : Request finished in 363.2824ms 200 text/html; charset=utf-8
+Microsoft.Hosting.Lifetime Information: 0 : Application is shutting down...
+Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager Information: 0 : User profile is available. Using 'C:\Users\apple\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+Microsoft.Hosting.Lifetime Information: 0 : Now listening on: https://localhost:5001
+Microsoft.Hosting.Lifetime Information: 0 : Now listening on: http://localhost:5000
+Microsoft.Hosting.Lifetime Information: 0 : Application started. Press Ctrl+C to shut down.
+Microsoft.Hosting.Lifetime Information: 0 : Hosting environment: Development
+Microsoft.Hosting.Lifetime Information: 0 : Content root path: Y:\CoreMvc3Examples\CoreMvc3_Fundamentals\CoreMvc3_Fundamentals
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 1 : Request starting HTTP/2 GET https://localhost:5001/Home/index  
+Microsoft.AspNetCore.Routing.EndpointMiddleware Information: 0 : Executing endpoint 'CoreMvc3_Fundamentals.Controllers.HomeController.Index (CoreMvc3_Fundamentals)'
+Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Information: 3 : Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CoreMvc3_Fundamentals.Controllers.HomeController (CoreMvc3_Fundamentals).
+CoreMvc3_Fundamentals.Controllers.HomeController Verbose: 1234 : Logging - LogDebug()記錄資訊- Home/Index被呼叫
+Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor Information: 1 : Executing ViewResult, running view Index.
+Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor Information: 4 : Executed ViewResult - view Index executed in 158.5595ms.
+Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Information: 2 : Executed action CoreMvc3_Fundamentals.Controllers.HomeController.Index (CoreMvc3_Fundamentals) in 201.8607ms
+Microsoft.AspNetCore.Routing.EndpointMiddleware Information: 1 : Executed endpoint 'CoreMvc3_Fundamentals.Controllers.HomeController.Index (CoreMvc3_Fundamentals)'
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 2 : Request finished in 324.28630000000004ms 200 text/html; charset=utf-8
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 1 : Request starting HTTP/2 GET https://localhost:5001/lib/bootstrap/dist/css/bootstrap.min.css  
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 1 : Request starting HTTP/2 GET https://localhost:5001/lib/bootstrap/dist/js/bootstrap.bundle.min.js  
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 1 : Request starting HTTP/2 GET https://localhost:5001/css/site.css  
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 1 : Request starting HTTP/2 GET https://localhost:5001/lib/jquery/dist/jquery.min.js  
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 1 : Request starting HTTP/2 GET https://localhost:5001/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0  
+Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware Information: 6 : The file /css/site.css was not modified
+Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware Information: 6 : The file /lib/bootstrap/dist/js/bootstrap.bundle.min.js was not modified
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 2 : Request finished in 23.7593ms 304 text/css
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 2 : Request finished in 23.6176ms 304 application/javascript
+Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware Information: 6 : The file /js/site.js was not modified
+Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware Information: 6 : The file /lib/jquery/dist/jquery.min.js was not modified
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 2 : Request finished in 45.9125ms 304 application/javascript
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 2 : Request finished in 48.4362ms 304 application/javascript
+Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware Information: 6 : The file /lib/bootstrap/dist/css/bootstrap.min.css was not modified
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 2 : Request finished in 50.3706ms 304 text/css
+Microsoft.Hosting.Lifetime Information: 0 : Application is shutting down...
+Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager Information: 0 : User profile is available. Using 'C:\Users\apple\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+Microsoft.Hosting.Lifetime Information: 0 : Now listening on: https://localhost:5001
+Microsoft.Hosting.Lifetime Information: 0 : Now listening on: http://localhost:5000
+Microsoft.Hosting.Lifetime Information: 0 : Application started. Press Ctrl+C to shut down.
+Microsoft.Hosting.Lifetime Information: 0 : Hosting environment: Development
+Microsoft.Hosting.Lifetime Information: 0 : Content root path: Y:\CoreMvc3Examples\CoreMvc3_Fundamentals\CoreMvc3_Fundamentals
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 1 : Request starting HTTP/2 GET https://localhost:5001/Home/index  
+Microsoft.AspNetCore.Routing.EndpointMiddleware Information: 0 : Executing endpoint 'CoreMvc3_Fundamentals.Controllers.HomeController.Index (CoreMvc3_Fundamentals)'
+Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Information: 3 : Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CoreMvc3_Fundamentals.Controllers.HomeController (CoreMvc3_Fundamentals).
+CoreMvc3_Fundamentals.Controllers.HomeController Verbose: 1234 : Logging - LogDebug()記錄資訊- Home/Index被呼叫
+Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor Information: 1 : Executing ViewResult, running view Index.
+Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor Information: 4 : Executed ViewResult - view Index executed in 180.0127ms.
+Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Information: 2 : Executed action CoreMvc3_Fundamentals.Controllers.HomeController.Index (CoreMvc3_Fundamentals) in 219.90550000000002ms
+Microsoft.AspNetCore.Routing.EndpointMiddleware Information: 1 : Executed endpoint 'CoreMvc3_Fundamentals.Controllers.HomeController.Index (CoreMvc3_Fundamentals)'
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 2 : Request finished in 362.6689ms 200 text/html; charset=utf-8
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 1 : Request starting HTTP/2 GET https://localhost:5001/favicon.ico  
+Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware Information: 2 : Sending file. Request path: '/favicon.ico'. Physical path: 'Y:\CoreMvc3Examples\CoreMvc3_Fundamentals\CoreMvc3_Fundamentals\wwwroot\favicon.ico'
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 2 : Request finished in 73.5693ms 200 image/x-icon
+Microsoft.Hosting.Lifetime Information: 0 : Application is shutting down...
+Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager Information: 0 : User profile is available. Using 'C:\Users\apple\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+Microsoft.Hosting.Lifetime Information: 0 : Now listening on: https://localhost:5001
+Microsoft.Hosting.Lifetime Information: 0 : Now listening on: http://localhost:5000
+Microsoft.Hosting.Lifetime Information: 0 : Application started. Press Ctrl+C to shut down.
+Microsoft.Hosting.Lifetime Information: 0 : Hosting environment: Development
+Microsoft.Hosting.Lifetime Information: 0 : Content root path: Y:\CoreMvc3Examples\CoreMvc3_Fundamentals\CoreMvc3_Fundamentals
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 1 : Request starting HTTP/2 GET https://localhost:5001/Home/LogMethods  
+Microsoft.AspNetCore.Routing.EndpointMiddleware Information: 0 : Executing endpoint 'CoreMvc3_Fundamentals.Controllers.HomeController.LogMethods (CoreMvc3_Fundamentals)'
+Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Information: 3 : Route matched with {action = "LogMethods", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult LogMethods() on controller CoreMvc3_Fundamentals.Controllers.HomeController (CoreMvc3_Fundamentals).
+CoreMvc3_Fundamentals.Controllers.HomeController Critical: 1234 : 用LogCritical方法記錄資訊
+CoreMvc3_Fundamentals.Controllers.HomeController Error: 1234 : 用LogError方法記錄資訊
+CoreMvc3_Fundamentals.Controllers.HomeController Warning: 1234 : 用LogWarning方法記錄資訊
+CoreMvc3_Fundamentals.Controllers.HomeController Information: 1234 : 用LogInformation方法記錄資訊
+CoreMvc3_Fundamentals.Controllers.HomeController Verbose: 1234 : 用LogDebug方法記錄資訊
+Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Information: 2 : Executed action CoreMvc3_Fundamentals.Controllers.HomeController.LogMethods (CoreMvc3_Fundamentals) in 18.5987ms
+Microsoft.AspNetCore.Routing.EndpointMiddleware Information: 1 : Executed endpoint 'CoreMvc3_Fundamentals.Controllers.HomeController.LogMethods (CoreMvc3_Fundamentals)'
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 2 : Request finished in 151.7065ms 200 
+Microsoft.Hosting.Lifetime Information: 0 : Application is shutting down...
+Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager Information: 0 : User profile is available. Using 'C:\Users\apple\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+Microsoft.Hosting.Lifetime Information: 0 : Now listening on: https://localhost:5001
+Microsoft.Hosting.Lifetime Information: 0 : Now listening on: http://localhost:5000
+Microsoft.Hosting.Lifetime Information: 0 : Application started. Press Ctrl+C to shut down.
+Microsoft.Hosting.Lifetime Information: 0 : Hosting environment: Development
+Microsoft.Hosting.Lifetime Information: 0 : Content root path: Y:\CoreMvc3Examples\CoreMvc3_Fundamentals\CoreMvc3_Fundamentals
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 1 : Request starting HTTP/2 GET https://localhost:5001/Home/LogMethods  
+Microsoft.AspNetCore.Routing.EndpointMiddleware Information: 0 : Executing endpoint 'CoreMvc3_Fundamentals.Controllers.HomeController.LogMethods (CoreMvc3_Fundamentals)'
+Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Information: 3 : Route matched with {action = "LogMethods", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult LogMethods() on controller CoreMvc3_Fundamentals.Controllers.HomeController (CoreMvc3_Fundamentals).
+CoreMvc3_Fundamentals.Controllers.HomeController Critical: 1234 : 用LogCritical方法記錄資訊
+CoreMvc3_Fundamentals.Controllers.HomeController Error: 1234 : 用LogError方法記錄資訊
+CoreMvc3_Fundamentals.Controllers.HomeController Warning: 1234 : 用LogWarning方法記錄資訊
+CoreMvc3_Fundamentals.Controllers.HomeController Information: 1234 : 用LogInformation方法記錄資訊
+CoreMvc3_Fundamentals.Controllers.HomeController Verbose: 1234 : 用LogDebug方法記錄資訊
+Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Information: 2 : Executed action CoreMvc3_Fundamentals.Controllers.HomeController.LogMethods (CoreMvc3_Fundamentals) in 22.2137ms
+Microsoft.AspNetCore.Routing.EndpointMiddleware Information: 1 : Executed endpoint 'CoreMvc3_Fundamentals.Controllers.HomeController.LogMethods (CoreMvc3_Fundamentals)'
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 2 : Request finished in 235.3193ms 200 
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 1 : Request starting HTTP/2 GET https://localhost:5001/favicon.ico  
+Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware Information: 2 : Sending file. Request path: '/favicon.ico'. Physical path: 'Y:\CoreMvc3Examples\CoreMvc3_Fundamentals\CoreMvc3_Fundamentals\wwwroot\favicon.ico'
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 2 : Request finished in 43.0724ms 200 image/x-icon
+Microsoft.Hosting.Lifetime Information: 0 : Application is shutting down...
+Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager Information: 0 : User profile is available. Using 'C:\Users\apple\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+Microsoft.Hosting.Lifetime Information: 0 : Now listening on: https://localhost:5001
+Microsoft.Hosting.Lifetime Information: 0 : Now listening on: http://localhost:5000
+Microsoft.Hosting.Lifetime Information: 0 : Application started. Press Ctrl+C to shut down.
+Microsoft.Hosting.Lifetime Information: 0 : Hosting environment: Development
+Microsoft.Hosting.Lifetime Information: 0 : Content root path: Y:\CoreMvc3Examples\CoreMvc3_Fundamentals\CoreMvc3_Fundamentals
+Microsoft.Hosting.Lifetime Information: 0 : Application is shutting down...
+Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager Information: 0 : User profile is available. Using 'C:\Users\apple\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+Microsoft.Hosting.Lifetime Information: 0 : Now listening on: https://localhost:5001
+Microsoft.Hosting.Lifetime Information: 0 : Now listening on: http://localhost:5000
+Microsoft.Hosting.Lifetime Information: 0 : Application started. Press Ctrl+C to shut down.
+Microsoft.Hosting.Lifetime Information: 0 : Hosting environment: Development
+Microsoft.Hosting.Lifetime Information: 0 : Content root path: Y:\CoreMvc3Examples\CoreMvc3_Fundamentals\CoreMvc3_Fundamentals
+Microsoft.Hosting.Lifetime Information: 0 : Application is shutting down...
+Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager Information: 0 : User profile is available. Using 'C:\Users\apple\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+Microsoft.Hosting.Lifetime Information: 0 : Now listening on: https://localhost:5001
+Microsoft.Hosting.Lifetime Information: 0 : Now listening on: http://localhost:5000
+Microsoft.Hosting.Lifetime Information: 0 : Application started. Press Ctrl+C to shut down.
+Microsoft.Hosting.Lifetime Information: 0 : Hosting environment: Development
+Microsoft.Hosting.Lifetime Information: 0 : Content root path: Y:\CoreMvc3Examples\CoreMvc3_Fundamentals\CoreMvc3_Fundamentals
+Microsoft.Hosting.Lifetime Information: 0 : Application is shutting down...
+Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager Information: 0 : User profile is available. Using 'C:\Users\apple\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+Microsoft.Hosting.Lifetime Information: 0 : Application is shutting down...
+Microsoft.Hosting.Lifetime Information: 0 : Now listening on: https://localhost:5001
+Microsoft.Hosting.Lifetime Information: 0 : Now listening on: http://localhost:5000
+Microsoft.Hosting.Lifetime Information: 0 : Application started. Press Ctrl+C to shut down.
+Microsoft.Hosting.Lifetime Information: 0 : Hosting environment: Development
+Microsoft.Hosting.Lifetime Information: 0 : Content root path: Y:\CoreMvc3Examples\CoreMvc3_Fundamentals\CoreMvc3_Fundamentals
+Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager Information: 0 : User profile is available. Using 'C:\Users\apple\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+Microsoft.Hosting.Lifetime Information: 0 : Now listening on: https://localhost:5001
+Microsoft.Hosting.Lifetime Information: 0 : Now listening on: http://localhost:5000
+Microsoft.Hosting.Lifetime Information: 0 : Application started. Press Ctrl+C to shut down.
+Microsoft.Hosting.Lifetime Information: 0 : Hosting environment: Development
+Microsoft.Hosting.Lifetime Information: 0 : Content root path: Y:\CoreMvc3Examples\CoreMvc3_Fundamentals\CoreMvc3_Fundamentals
+Microsoft.Hosting.Lifetime Information: 0 : Application is shutting down...
+Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager Information: 0 : User profile is available. Using 'C:\Users\apple\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+Microsoft.Hosting.Lifetime Information: 0 : Now listening on: https://localhost:5001
+Microsoft.Hosting.Lifetime Information: 0 : Now listening on: http://localhost:5000
+Microsoft.Hosting.Lifetime Information: 0 : Application started. Press Ctrl+C to shut down.
+Microsoft.Hosting.Lifetime Information: 0 : Hosting environment: Development
+Microsoft.Hosting.Lifetime Information: 0 : Content root path: Y:\CoreMvc3Examples\CoreMvc3_Fundamentals\CoreMvc3_Fundamentals
+Microsoft.Hosting.Lifetime Information: 0 : Application is shutting down...
+Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager Information: 0 : User profile is available. Using 'C:\Users\apple\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+Microsoft.Hosting.Lifetime Information: 0 : Now listening on: https://localhost:5001
+Microsoft.Hosting.Lifetime Information: 0 : Now listening on: http://localhost:5000
+Microsoft.Hosting.Lifetime Information: 0 : Application started. Press Ctrl+C to shut down.
+Microsoft.Hosting.Lifetime Information: 0 : Hosting environment: Development
+Microsoft.Hosting.Lifetime Information: 0 : Content root path: Y:\CoreMvc3Examples\CoreMvc3_Fundamentals\CoreMvc3_Fundamentals
+Microsoft.Hosting.Lifetime Information: 0 : Application is shutting down...
+Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager Information: 0 : User profile is available. Using 'C:\Users\apple\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+Microsoft.Hosting.Lifetime Information: 0 : Now listening on: https://localhost:5001
+Microsoft.Hosting.Lifetime Information: 0 : Now listening on: http://localhost:5000
+Microsoft.Hosting.Lifetime Information: 0 : Application started. Press Ctrl+C to shut down.
+Microsoft.Hosting.Lifetime Information: 0 : Hosting environment: Development
+Microsoft.Hosting.Lifetime Information: 0 : Content root path: Y:\CoreMvc3Examples\CoreMvc3_Fundamentals\CoreMvc3_Fundamentals
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 1 : Request starting HTTP/2 GET https://localhost:5001/Home/LogMethods  
+Microsoft.AspNetCore.Routing.EndpointMiddleware Information: 0 : Executing endpoint 'CoreMvc3_Fundamentals.Controllers.HomeController.LogMethods (CoreMvc3_Fundamentals)'
+Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Information: 3 : Route matched with {action = "LogMethods", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult LogMethods() on controller CoreMvc3_Fundamentals.Controllers.HomeController (CoreMvc3_Fundamentals).
+CoreMvc3_Fundamentals.Controllers.HomeController Critical: 1234 : 用LogCritical方法記錄資訊
+CoreMvc3_Fundamentals.Controllers.HomeController Error: 1234 : 用LogError方法記錄資訊
+CoreMvc3_Fundamentals.Controllers.HomeController Warning: 1234 : 用LogWarning方法記錄資訊
+CoreMvc3_Fundamentals.Controllers.HomeController Information: 1234 : 用LogInformation方法記錄資訊
+CoreMvc3_Fundamentals.Controllers.HomeController Verbose: 1234 : 用LogDebug方法記錄資訊
+Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Information: 2 : Executed action CoreMvc3_Fundamentals.Controllers.HomeController.LogMethods (CoreMvc3_Fundamentals) in 40.5265ms
+Microsoft.AspNetCore.Routing.EndpointMiddleware Information: 1 : Executed endpoint 'CoreMvc3_Fundamentals.Controllers.HomeController.LogMethods (CoreMvc3_Fundamentals)'
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 2 : Request finished in 268.53430000000003ms 200 
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 1 : Request starting HTTP/2 GET https://localhost:5001/favicon.ico  
+Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware Information: 2 : Sending file. Request path: '/favicon.ico'. Physical path: 'Y:\CoreMvc3Examples\CoreMvc3_Fundamentals\CoreMvc3_Fundamentals\wwwroot\favicon.ico'
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 2 : Request finished in 81.0621ms 200 image/x-icon
+Microsoft.Hosting.Lifetime Information: 0 : Application is shutting down...
+Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager Information: 0 : User profile is available. Using 'C:\Users\apple\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+Microsoft.Hosting.Lifetime Information: 0 : Now listening on: https://localhost:5001
+Microsoft.Hosting.Lifetime Information: 0 : Now listening on: http://localhost:5000
+Microsoft.Hosting.Lifetime Information: 0 : Application started. Press Ctrl+C to shut down.
+Microsoft.Hosting.Lifetime Information: 0 : Hosting environment: Development
+Microsoft.Hosting.Lifetime Information: 0 : Content root path: Y:\CoreMvc3Examples\CoreMvc3_Fundamentals\CoreMvc3_Fundamentals
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 1 : Request starting HTTP/2 GET https://localhost:5001/Home/LogMethods  
+Microsoft.AspNetCore.Routing.EndpointMiddleware Information: 0 : Executing endpoint 'CoreMvc3_Fundamentals.Controllers.HomeController.LogMethods (CoreMvc3_Fundamentals)'
+Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Information: 3 : Route matched with {action = "LogMethods", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult LogMethods() on controller CoreMvc3_Fundamentals.Controllers.HomeController (CoreMvc3_Fundamentals).
+CoreMvc3_Fundamentals.Controllers.HomeController Critical: 1234 : 用LogCritical方法記錄資訊
+CoreMvc3_Fundamentals.Controllers.HomeController Error: 1234 : 用LogError方法記錄資訊
+CoreMvc3_Fundamentals.Controllers.HomeController Warning: 1234 : 用LogWarning方法記錄資訊
+CoreMvc3_Fundamentals.Controllers.HomeController Information: 1234 : 用LogInformation方法記錄資訊
+CoreMvc3_Fundamentals.Controllers.HomeController Verbose: 1234 : 用LogDebug方法記錄資訊
+Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Information: 2 : Executed action CoreMvc3_Fundamentals.Controllers.HomeController.LogMethods (CoreMvc3_Fundamentals) in 19.8902ms
+Microsoft.AspNetCore.Routing.EndpointMiddleware Information: 1 : Executed endpoint 'CoreMvc3_Fundamentals.Controllers.HomeController.LogMethods (CoreMvc3_Fundamentals)'
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 2 : Request finished in 201.0004ms 200 
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 1 : Request starting HTTP/2 GET https://localhost:5001/favicon.ico  
+Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware Information: 2 : Sending file. Request path: '/favicon.ico'. Physical path: 'Y:\CoreMvc3Examples\CoreMvc3_Fundamentals\CoreMvc3_Fundamentals\wwwroot\favicon.ico'
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 2 : Request finished in 37.6678ms 200 image/x-icon
+Microsoft.Hosting.Lifetime Information: 0 : Application is shutting down...
+Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager Information: 0 : User profile is available. Using 'C:\Users\apple\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+Microsoft.Hosting.Lifetime Information: 0 : Now listening on: https://localhost:5001
+Microsoft.Hosting.Lifetime Information: 0 : Now listening on: http://localhost:5000
+Microsoft.Hosting.Lifetime Information: 0 : Application started. Press Ctrl+C to shut down.
+Microsoft.Hosting.Lifetime Information: 0 : Hosting environment: Development
+Microsoft.Hosting.Lifetime Information: 0 : Content root path: Y:\CoreMvc3Examples\CoreMvc3_Fundamentals\CoreMvc3_Fundamentals
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 1 : Request starting HTTP/2 GET https://localhost:5001/Home/LogMethods  
+Microsoft.AspNetCore.Routing.EndpointMiddleware Information: 0 : Executing endpoint 'CoreMvc3_Fundamentals.Controllers.HomeController.LogMethods (CoreMvc3_Fundamentals)'
+Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Information: 3 : Route matched with {action = "LogMethods", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult LogMethods() on controller CoreMvc3_Fundamentals.Controllers.HomeController (CoreMvc3_Fundamentals).
+CoreMvc3_Fundamentals.Controllers.HomeController Critical: 1234 : 用LogCritical方法記錄資訊
+CoreMvc3_Fundamentals.Controllers.HomeController Error: 1234 : 用LogError方法記錄資訊
+CoreMvc3_Fundamentals.Controllers.HomeController Warning: 1234 : 用LogWarning方法記錄資訊
+Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Information: 2 : Executed action CoreMvc3_Fundamentals.Controllers.HomeController.LogMethods (CoreMvc3_Fundamentals) in 31.245900000000002ms
+Microsoft.AspNetCore.Routing.EndpointMiddleware Information: 1 : Executed endpoint 'CoreMvc3_Fundamentals.Controllers.HomeController.LogMethods (CoreMvc3_Fundamentals)'
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 2 : Request finished in 271.09610000000004ms 200 
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 1 : Request starting HTTP/2 GET https://localhost:5001/favicon.ico  
+Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware Information: 2 : Sending file. Request path: '/favicon.ico'. Physical path: 'Y:\CoreMvc3Examples\CoreMvc3_Fundamentals\CoreMvc3_Fundamentals\wwwroot\favicon.ico'
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 2 : Request finished in 74.7034ms 200 image/x-icon
+Microsoft.Hosting.Lifetime Information: 0 : Application is shutting down...
+Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager Information: 0 : User profile is available. Using 'C:\Users\apple\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+Microsoft.Hosting.Lifetime Information: 0 : Now listening on: https://localhost:5001
+Microsoft.Hosting.Lifetime Information: 0 : Now listening on: http://localhost:5000
+Microsoft.Hosting.Lifetime Information: 0 : Application started. Press Ctrl+C to shut down.
+Microsoft.Hosting.Lifetime Information: 0 : Hosting environment: Development
+Microsoft.Hosting.Lifetime Information: 0 : Content root path: Y:\CoreMvc3Examples\CoreMvc3_Fundamentals\CoreMvc3_Fundamentals
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 1 : Request starting HTTP/2 GET https://localhost:5001/Home/Logmethods  
+Microsoft.AspNetCore.Routing.EndpointMiddleware Information: 0 : Executing endpoint 'CoreMvc3_Fundamentals.Controllers.HomeController.LogMethods (CoreMvc3_Fundamentals)'
+Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Information: 3 : Route matched with {action = "LogMethods", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult LogMethods() on controller CoreMvc3_Fundamentals.Controllers.HomeController (CoreMvc3_Fundamentals).
+CoreMvc3_Fundamentals.Controllers.HomeController Critical: 1234 : 目前環境是:Development
+CoreMvc3_Fundamentals.Controllers.HomeController Critical: 1234 : 用LogCritical方法記錄資訊
+CoreMvc3_Fundamentals.Controllers.HomeController Error: 1234 : 用LogError方法記錄資訊
+CoreMvc3_Fundamentals.Controllers.HomeController Warning: 1234 : 用LogWarning方法記錄資訊
+CoreMvc3_Fundamentals.Controllers.HomeController Information: 1234 : 用LogInformation方法記錄資訊
+CoreMvc3_Fundamentals.Controllers.HomeController Verbose: 1234 : 用LogDebug方法記錄資訊
+Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Information: 2 : Executed action CoreMvc3_Fundamentals.Controllers.HomeController.LogMethods (CoreMvc3_Fundamentals) in 20.892ms
+Microsoft.AspNetCore.Routing.EndpointMiddleware Information: 1 : Executed endpoint 'CoreMvc3_Fundamentals.Controllers.HomeController.LogMethods (CoreMvc3_Fundamentals)'
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 2 : Request finished in 179.8596ms 200 
+Microsoft.Hosting.Lifetime Information: 0 : Application is shutting down...
+Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager Information: 0 : User profile is available. Using 'C:\Users\apple\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+Microsoft.Hosting.Lifetime Information: 0 : Now listening on: https://localhost:5001
+Microsoft.Hosting.Lifetime Information: 0 : Now listening on: http://localhost:5000
+Microsoft.Hosting.Lifetime Information: 0 : Application started. Press Ctrl+C to shut down.
+Microsoft.Hosting.Lifetime Information: 0 : Hosting environment: Development
+Microsoft.Hosting.Lifetime Information: 0 : Content root path: Y:\CoreMvc3Examples\CoreMvc3_Fundamentals\CoreMvc3_Fundamentals
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 1 : Request starting HTTP/2 GET https://localhost:5001/Home/Logmethods  
+Microsoft.AspNetCore.Routing.EndpointMiddleware Information: 0 : Executing endpoint 'CoreMvc3_Fundamentals.Controllers.HomeController.LogMethods (CoreMvc3_Fundamentals)'
+Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Information: 3 : Route matched with {action = "LogMethods", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult LogMethods() on controller CoreMvc3_Fundamentals.Controllers.HomeController (CoreMvc3_Fundamentals).
+CoreMvc3_Fundamentals.Controllers.HomeController Critical: 0 : 目前環境是:Development
+CoreMvc3_Fundamentals.Controllers.HomeController Critical: 1234 : 用LogCritical方法記錄資訊
+CoreMvc3_Fundamentals.Controllers.HomeController Error: 1234 : 用LogError方法記錄資訊
+CoreMvc3_Fundamentals.Controllers.HomeController Warning: 1234 : 用LogWarning方法記錄資訊
+CoreMvc3_Fundamentals.Controllers.HomeController Information: 1234 : 用LogInformation方法記錄資訊
+CoreMvc3_Fundamentals.Controllers.HomeController Verbose: 1234 : 用LogDebug方法記錄資訊
+Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Information: 2 : Executed action CoreMvc3_Fundamentals.Controllers.HomeController.LogMethods (CoreMvc3_Fundamentals) in 15.5707ms
+Microsoft.AspNetCore.Routing.EndpointMiddleware Information: 1 : Executed endpoint 'CoreMvc3_Fundamentals.Controllers.HomeController.LogMethods (CoreMvc3_Fundamentals)'
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 2 : Request finished in 148.97990000000001ms 200 
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 1 : Request starting HTTP/2 GET https://localhost:5001/favicon.ico  
+Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware Information: 2 : Sending file. Request path: '/favicon.ico'. Physical path: 'Y:\CoreMvc3Examples\CoreMvc3_Fundamentals\CoreMvc3_Fundamentals\wwwroot\favicon.ico'
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 2 : Request finished in 67.8391ms 200 image/x-icon
+Microsoft.Hosting.Lifetime Information: 0 : Application is shutting down...
+Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager Information: 0 : User profile is available. Using 'C:\Users\apple\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+Microsoft.Hosting.Lifetime Information: 0 : Now listening on: https://localhost:5001
+Microsoft.Hosting.Lifetime Information: 0 : Now listening on: http://localhost:5000
+Microsoft.Hosting.Lifetime Information: 0 : Application started. Press Ctrl+C to shut down.
+Microsoft.Hosting.Lifetime Information: 0 : Hosting environment: Development
+Microsoft.Hosting.Lifetime Information: 0 : Content root path: Y:\CoreMvc3Examples\CoreMvc3_Fundamentals\CoreMvc3_Fundamentals
+Microsoft.Hosting.Lifetime Information: 0 : Application is shutting down...
+Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager Information: 0 : User profile is available. Using 'C:\Users\apple\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+Microsoft.Hosting.Lifetime Information: 0 : Now listening on: https://localhost:5001
+Microsoft.Hosting.Lifetime Information: 0 : Now listening on: http://localhost:5000
+Microsoft.Hosting.Lifetime Information: 0 : Application started. Press Ctrl+C to shut down.
+Microsoft.Hosting.Lifetime Information: 0 : Hosting environment: Development
+Microsoft.Hosting.Lifetime Information: 0 : Content root path: Y:\CoreMvc3Examples\CoreMvc3_Fundamentals\CoreMvc3_Fundamentals
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 1 : Request starting HTTP/2 GET https://localhost:5001/Home/Logmethods  
+Microsoft.AspNetCore.Routing.EndpointMiddleware Information: 0 : Executing endpoint 'CoreMvc3_Fundamentals.Controllers.HomeController.LogMethods (CoreMvc3_Fundamentals)'
+Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Information: 3 : Route matched with {action = "LogMethods", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult LogMethods() on controller CoreMvc3_Fundamentals.Controllers.HomeController (CoreMvc3_Fundamentals).
+CoreMvc3_Fundamentals.Controllers.HomeController Critical: 0 : 目前環境是:Development
+CoreMvc3_Fundamentals.Controllers.HomeController Critical: 0 : 用LogCritical方法記錄資訊
+CoreMvc3_Fundamentals.Controllers.HomeController Error: 0 : 用LogError方法記錄資訊
+CoreMvc3_Fundamentals.Controllers.HomeController Warning: 0 : 用LogWarning方法記錄資訊
+CoreMvc3_Fundamentals.Controllers.HomeController Information: 0 : 用LogInformation方法記錄資訊
+CoreMvc3_Fundamentals.Controllers.HomeController Verbose: 0 : 用LogDebug方法記錄資訊
+Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Information: 2 : Executed action CoreMvc3_Fundamentals.Controllers.HomeController.LogMethods (CoreMvc3_Fundamentals) in 22.8273ms
+Microsoft.AspNetCore.Routing.EndpointMiddleware Information: 1 : Executed endpoint 'CoreMvc3_Fundamentals.Controllers.HomeController.LogMethods (CoreMvc3_Fundamentals)'
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 2 : Request finished in 180.5504ms 200 
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 1 : Request starting HTTP/2 GET https://localhost:5001/favicon.ico  
+Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware Information: 2 : Sending file. Request path: '/favicon.ico'. Physical path: 'Y:\CoreMvc3Examples\CoreMvc3_Fundamentals\CoreMvc3_Fundamentals\wwwroot\favicon.ico'
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 2 : Request finished in 77.8105ms 200 image/x-icon
+Microsoft.Hosting.Lifetime Information: 0 : Application is shutting down...
+Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager Information: 0 : User profile is available. Using 'C:\Users\apple\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+Microsoft.Hosting.Lifetime Information: 0 : Now listening on: https://localhost:5001
+Microsoft.Hosting.Lifetime Information: 0 : Now listening on: http://localhost:5000
+Microsoft.Hosting.Lifetime Information: 0 : Application started. Press Ctrl+C to shut down.
+Microsoft.Hosting.Lifetime Information: 0 : Hosting environment: Development
+Microsoft.Hosting.Lifetime Information: 0 : Content root path: Y:\CoreMvc3Examples\CoreMvc3_Fundamentals\CoreMvc3_Fundamentals
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 1 : Request starting HTTP/2 GET https://localhost:5001/Home/Logmethods  
+Microsoft.AspNetCore.Routing.EndpointMiddleware Information: 0 : Executing endpoint 'CoreMvc3_Fundamentals.Controllers.HomeController.LogMethods (CoreMvc3_Fundamentals)'
+Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Information: 3 : Route matched with {action = "LogMethods", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult LogMethods() on controller CoreMvc3_Fundamentals.Controllers.HomeController (CoreMvc3_Fundamentals).
+CoreMvc3_Fundamentals.Controllers.HomeController Critical: 1234 : 目前環境是:Development
+CoreMvc3_Fundamentals.Controllers.HomeController Critical: 1234 : 用LogCritical方法記錄資訊
+CoreMvc3_Fundamentals.Controllers.HomeController Error: 1234 : 用LogError方法記錄資訊
+CoreMvc3_Fundamentals.Controllers.HomeController Warning: 1234 : 用LogWarning方法記錄資訊
+CoreMvc3_Fundamentals.Controllers.HomeController Information: 1234 : 用LogInformation方法記錄資訊
+Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Information: 2 : Executed action CoreMvc3_Fundamentals.Controllers.HomeController.LogMethods (CoreMvc3_Fundamentals) in 21.698500000000003ms
+Microsoft.AspNetCore.Routing.EndpointMiddleware Information: 1 : Executed endpoint 'CoreMvc3_Fundamentals.Controllers.HomeController.LogMethods (CoreMvc3_Fundamentals)'
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 2 : Request finished in 215.5645ms 200 
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 1 : Request starting HTTP/2 GET https://localhost:5001/favicon.ico  
+Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware Information: 2 : Sending file. Request path: '/favicon.ico'. Physical path: 'Y:\CoreMvc3Examples\CoreMvc3_Fundamentals\CoreMvc3_Fundamentals\wwwroot\favicon.ico'
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 2 : Request finished in 84.9303ms 200 image/x-icon
+Microsoft.Hosting.Lifetime Information: 0 : Application is shutting down...
+Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager Information: 0 : User profile is available. Using 'C:\Users\apple\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+Microsoft.Hosting.Lifetime Information: 0 : Now listening on: https://localhost:5001
+Microsoft.Hosting.Lifetime Information: 0 : Now listening on: http://localhost:5000
+Microsoft.Hosting.Lifetime Information: 0 : Application started. Press Ctrl+C to shut down.
+Microsoft.Hosting.Lifetime Information: 0 : Hosting environment: Development
+Microsoft.Hosting.Lifetime Information: 0 : Content root path: Y:\CoreMvc3Examples\CoreMvc3_Fundamentals\CoreMvc3_Fundamentals
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 1 : Request starting HTTP/2 GET https://localhost:5001/Home/Logmethods  
+Microsoft.AspNetCore.Routing.EndpointMiddleware Information: 0 : Executing endpoint 'CoreMvc3_Fundamentals.Controllers.HomeController.LogMethods (CoreMvc3_Fundamentals)'
+Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Information: 3 : Route matched with {action = "LogMethods", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult LogMethods() on controller CoreMvc3_Fundamentals.Controllers.HomeController (CoreMvc3_Fundamentals).
+CoreMvc3_Fundamentals.Controllers.HomeController Critical: 1234 : 用LogCritical方法記錄資訊
+CoreMvc3_Fundamentals.Controllers.HomeController Error: 1234 : 用LogError方法記錄資訊
+CoreMvc3_Fundamentals.Controllers.HomeController Warning: 1234 : 用LogWarning方法記錄資訊
+CoreMvc3_Fundamentals.Controllers.HomeController Information: 1234 : 用LogInformation方法記錄資訊
+Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Information: 2 : Executed action CoreMvc3_Fundamentals.Controllers.HomeController.LogMethods (CoreMvc3_Fundamentals) in 29.4586ms
+Microsoft.AspNetCore.Routing.EndpointMiddleware Information: 1 : Executed endpoint 'CoreMvc3_Fundamentals.Controllers.HomeController.LogMethods (CoreMvc3_Fundamentals)'
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 2 : Request finished in 174.5162ms 200 
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 1 : Request starting HTTP/2 GET https://localhost:5001/favicon.ico  
+Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware Information: 2 : Sending file. Request path: '/favicon.ico'. Physical path: 'Y:\CoreMvc3Examples\CoreMvc3_Fundamentals\CoreMvc3_Fundamentals\wwwroot\favicon.ico'
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 2 : Request finished in 60.8288ms 200 image/x-icon
+Microsoft.Hosting.Lifetime Information: 0 : Application is shutting down...
+Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager Information: 0 : User profile is available. Using 'C:\Users\apple\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+Microsoft.Hosting.Lifetime Information: 0 : Application started. Press Ctrl+C to shut down.
+Microsoft.Hosting.Lifetime Information: 0 : Hosting environment: Development
+Microsoft.Hosting.Lifetime Information: 0 : Content root path: Y:\CoreMvc3Examples\CoreMvc3_Fundamentals\CoreMvc3_Fundamentals
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 1 : Request starting HTTP/2.0 GET https://localhost:44348/  
+Microsoft.AspNetCore.Routing.EndpointMiddleware Information: 0 : Executing endpoint 'CoreMvc3_Fundamentals.Controllers.HomeController.Index (CoreMvc3_Fundamentals)'
+Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Information: 3 : Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CoreMvc3_Fundamentals.Controllers.HomeController (CoreMvc3_Fundamentals).
+Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Information: 1 : Executing action method CoreMvc3_Fundamentals.Controllers.HomeController.Index (CoreMvc3_Fundamentals) - Validation state: Valid
+CoreMvc3_Fundamentals.Controllers.HomeController Verbose: 1234 : Logging - LogDebug()記錄資訊- Home/Index被呼叫
+Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Information: 2 : Executed action method CoreMvc3_Fundamentals.Controllers.HomeController.Index (CoreMvc3_Fundamentals), returned result Microsoft.AspNetCore.Mvc.ViewResult in 40.2394ms.
+Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor Information: 1 : Executing ViewResult, running view Index.
+Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor Information: 4 : Executed ViewResult - view Index executed in 553.6856ms.
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 1 : Request starting HTTP/2.0 GET https://localhost:44348/css/site.css  
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 1 : Request starting HTTP/2.0 GET https://localhost:44348/lib/jquery/dist/jquery.min.js  
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 1 : Request starting HTTP/2.0 GET https://localhost:44348/lib/bootstrap/dist/css/bootstrap.min.css  
+Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Information: 2 : Executed action CoreMvc3_Fundamentals.Controllers.HomeController.Index (CoreMvc3_Fundamentals) in 1312.1531ms
+Microsoft.AspNetCore.Routing.EndpointMiddleware Information: 1 : Executed endpoint 'CoreMvc3_Fundamentals.Controllers.HomeController.Index (CoreMvc3_Fundamentals)'
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 2 : Request finished in 1760.4515000000001ms 200 text/html; charset=utf-8
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 1 : Request starting HTTP/2.0 GET https://localhost:44348/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0  
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 1 : Request starting HTTP/2.0 GET https://localhost:44348/lib/bootstrap/dist/js/bootstrap.bundle.min.js  
+Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware Information: 2 : Sending file. Request path: '/css/site.css'. Physical path: 'Y:\CoreMvc3Examples\CoreMvc3_Fundamentals\CoreMvc3_Fundamentals\publicshare\css\site.css'
+Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware Information: 2 : Sending file. Request path: '/js/site.js'. Physical path: 'Y:\CoreMvc3Examples\CoreMvc3_Fundamentals\CoreMvc3_Fundamentals\publicshare\js\site.js'
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 2 : Request finished in 326.2446ms 200 application/javascript
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 2 : Request finished in 691.0461ms 200 text/css
+Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware Information: 2 : Sending file. Request path: '/lib/jquery/dist/jquery.min.js'. Physical path: 'Y:\CoreMvc3Examples\CoreMvc3_Fundamentals\CoreMvc3_Fundamentals\publicshare\lib\jqueMicrosoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager Information: 0 : User profile is available. Using 'C:\Users\apple\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+Microsoft.Hosting.Lifetime Information: 0 : Application started. Press Ctrl+C to shut down.
+Microsoft.Hosting.Lifetime Information: 0 : Hosting environment: Development
+Microsoft.Hosting.Lifetime Information: 0 : Content root path: Y:\CoreMvc3Examples\CoreMvc3_Fundamentals\CoreMvc3_Fundamentals
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 1 : Request starting HTTP/2.0 GET https://localhost:44348/  
+Microsoft.AspNetCore.Routing.EndpointMiddleware Information: 0 : Executing endpoint 'CoreMvc3_Fundamentals.Controllers.HomeController.Index (CoreMvc3_Fundamentals)'
+Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Information: 3 : Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CoreMvc3_Fundamentals.Controllers.HomeController (CoreMvc3_Fundamentals).
+Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Information: 1 : Executing action method CoreMvc3_Fundamentals.Controllers.HomeController.Index (CoreMvc3_Fundamentals) - Validation state: Valid
+CoreMvc3_Fundamentals.Controllers.HomeController Warning: 1234 : Logging - LogTrace()記錄資訊- Home/Index被呼叫
+CoreMvc3_Fundamentals.Controllers.HomeController Warning: 1234 : Logging - LogDebug()記錄資訊- Home/Index被呼叫
+Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Information: 2 : Executed action method CoreMvc3_Fundamentals.Controllers.HomeController.Index (CoreMvc3_Fundamentals), returned result Microsoft.AspNetCore.Mvc.ViewResult in 71.8344ms.
+Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor Information: 1 : Executing ViewResult, running view Index.
+Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor Information: 4 : Executed ViewResult - view Index executed in 384.3932ms.
+Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Information: 2 : Executed action CoreMvc3_Fundamentals.Controllers.HomeController.Index (CoreMvc3_Fundamentals) in 1046.9851ms
+Microsoft.AspNetCore.Routing.EndpointMiddleware Information: 1 : Executed endpoint 'CoreMvc3_Fundamentals.Controllers.HomeController.Index (CoreMvc3_Fundamentals)'
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 2 : Request finished in 1458.8043ms 200 text/html; charset=utf-8
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 1 : Request starting HTTP/2.0 GET https://localhost:44348/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0  
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 1 : Request starting HTTP/2.0 GET https://localhost:44348/css/site.css  
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 1 : Request starting HTTP/2.0 GET https://localhost:44348/lib/bootstrap/dist/css/bootstrap.min.css  
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 1 : Request starting HTTP/2.0 GET https://localhost:44348/lib/jquery/dist/jquery.min.js  
+Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware Information: 2 : Sending file. Request path: '/js/site.js'. Physical path: 'Y:\CoreMvc3Examples\CoreMvc3_Fundamentals\CoreMvc3_Fundamentals\publicshare\js\site.js'
+Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware Information: 2 : Sending file. Request path: '/css/site.css'. Physical path: 'Y:\CoreMvc3Examples\CoreMvc3_Fundamentals\CoreMvc3_Fundamentals\publicshare\css\site.css'
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 2 : Request finished in 420.7632ms 200 application/javascript
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 2 : Request finished in 462.6015ms 200 text/css
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 1 : Request starting HTTP/2.0 GET https://localhost:44348/lib/bootstrap/dist/js/bootstrap.bundle.min.js  
+Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware Information: 2 : Sending file. Request path: '/lib/jquery/dist/jquery.min.js'. PhyMicrosoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager Information: 0 : User profile is available. Using 'C:\Users\apple\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+Microsoft.Hosting.Lifetime Information: 0 : Application started. Press Ctrl+C to shut down.
+Microsoft.Hosting.Lifetime Information: 0 : Hosting environment: Development
+Microsoft.Hosting.Lifetime Information: 0 : Content root path: Y:\CoreMvc3Examples\CoreMvc3_Fundamentals\CoreMvc3_Fundamentals
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 1 : Request starting HTTP/2.0 GET https://localhost:44348/  
+Microsoft.AspNetCore.Routing.EndpointMiddleware Information: 0 : Executing endpoint 'CoreMvc3_Fundamentals.Controllers.HomeController.Index (CoreMvc3_Fundamentals)'
+Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Information: 3 : Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CoreMvc3_Fundamentals.Controllers.HomeController (CoreMvc3_Fundamentals).
+Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Information: 1 : Executing action method CoreMvc3_Fundamentals.Controllers.HomeController.Index (CoreMvc3_Fundamentals) - Validation state: Valid
+CoreMvc3_Fundamentals.Controllers.HomeController Verbose: 1234 : Logging - LogDebug()記錄資訊- Home/Index被呼叫
+Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Information: 2 : Executed action method CoreMvc3_Fundamentals.Controllers.HomeController.Index (CoreMvc3_Fundamentals), returned result Microsoft.AspNetCore.Mvc.ViewResult in 15.4032ms.
+Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor Information: 1 : Executing ViewResult, running view Index.
+Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor Information: 4 : Executed ViewResult - view Index executed in 345.4229ms.
+Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Information: 2 : Executed action CoreMvc3_Fundamentals.Controllers.HomeController.Index (CoreMvc3_Fundamentals) in 699.8638ms
+Microsoft.AspNetCore.Routing.EndpointMiddleware Information: 1 : Executed endpoint 'CoreMvc3_Fundamentals.Controllers.HomeController.Index (CoreMvc3_Fundamentals)'
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 2 : Request finished in 1139.0344ms 200 text/html; charset=utf-8
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 1 : Request starting HTTP/2.0 GET https://localhost:44348/lib/bootstrap/dist/css/bootstrap.min.css  
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 1 : Request starting HTTP/2.0 GET https://localhost:44348/lib/jquery/dist/jquery.min.js  
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 1 : Request starting HTTP/2.0 GET https://localhost:44348/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0  
+Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware Information: 2 : Sending file. Request path: '/js/site.js'. Physical path: 'Y:\CoreMvc3Examples\CoreMvc3_Fundamentals\CoreMvc3_Fundamentals\publicshare\js\site.js'
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 1 : Request starting HTTP/2.0 GET https://localhost:44348/css/site.css  
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 1 : Request starting HTTP/2.0 GET https://localhost:44348/lib/bootstrap/dist/js/bootstrap.bundle.min.js  
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 2 : Request finished in 301.1915ms 200 application/javascript
+Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware Information: 2 : Sending file. Request path: '/css/site.css'. Physical path: 'Y:\CoreMvc3Examples\CoreMvc3_Fundamentals\CoreMvc3_Fundamentals\publicshare\css\site.css'
+Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware Information: 2 : Sending file. Request path: '/lib/jquery/dist/jquery.min.js'. Physical path: 'Y:\CoreMvc3Examples\CoreMvc3_Fundamentals\CoreMvc3_Fundamentals\publicshare\lib\jquery\dist\jquery.min.js'
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 2 : Request finished in 246.2855ms Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager Information: 0 : User profile is available. Using 'C:\Users\apple\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+Microsoft.Hosting.Lifetime Information: 0 : Application started. Press Ctrl+C to shut down.
+Microsoft.Hosting.Lifetime Information: 0 : Hosting environment: Development
+Microsoft.Hosting.Lifetime Information: 0 : Content root path: Y:\CoreMvc3Examples\CoreMvc3_Fundamentals\CoreMvc3_Fundamentals
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 1 : Request starting HTTP/2.0 GET https://localhost:44348/  
+Microsoft.AspNetCore.Routing.EndpointMiddleware Information: 0 : Executing endpoint 'CoreMvc3_Fundamentals.Controllers.HomeController.Index (CoreMvc3_Fundamentals)'
+Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Information: 3 : Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CoreMvc3_Fundamentals.Controllers.HomeController (CoreMvc3_Fundamentals).
+Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Information: 1 : Executing action method CoreMvc3_Fundamentals.Controllers.HomeController.Index (CoreMvc3_Fundamentals) - Validation state: Valid
+CoreMvc3_Fundamentals.Controllers.HomeController Verbose: 1234 : Logging - LogDebug()記錄資訊- Home/Index被呼叫
+Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Information: 2 : Executed action method CoreMvc3_Fundamentals.Controllers.HomeController.Index (CoreMvc3_Fundamentals), returned result Microsoft.AspNetCore.Mvc.ViewResult in 59.9019ms.
+Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor Information: 1 : Executing ViewResult, running view Index.
+Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor Information: 4 : Executed ViewResult - view Index executed in 550.6607ms.
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 1 : Request starting HTTP/2.0 GET https://localhost:44348/css/site.css  
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 1 : Request starting HTTP/2.0 GET https://localhost:44348/lib/jquery/dist/jquery.min.js  
+Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Information: 2 : Executed action CoreMvc3_Fundamentals.Controllers.HomeController.Index (CoreMvc3_Fundamentals) in 1388.6156ms
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 1 : Request starting HTTP/2.0 GET https://localhost:44348/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0  
+Microsoft.AspNetCore.Routing.EndpointMiddleware Information: 1 : Executed endpoint 'CoreMvc3_Fundamentals.Controllers.HomeController.Index (CoreMvc3_Fundamentals)'
+Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware Information: 2 : Sending file. Request path: '/css/site.css'. Physical path: 'Y:\CoreMvc3Examples\CoreMvc3_Fundamentals\CoreMvc3_Fundamentals\publicshare\css\site.css'
+Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware Information: 2 : Sending file. Request path: '/js/site.js'. Physical path: 'Y:\CoreMvc3Examples\CoreMvc3_Fundamentals\CoreMvc3_Fundamentals\publicshare\js\site.js'
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 2 : Request finished in 371.0067ms 200 application/javascript
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 2 : Request finished in 389.7809ms 200 text/css
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 1 : Request starting HTTP/2.0 GET https://localhost:44348/lib/bootstrap/dist/css/bootstrap.min.css  
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 1 : Request starting HTTP/2.0 GET https://localhost:44348/lib/bootstrap/dist/js/bootstrap.bundle.min.js  
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 2 : Request finished in 2658.6699ms 200 text/html; charset=utf-8
+Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware Information: 2 : Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'. Physical path: 'Y:\CoreMvc3Examples\CoreMvc3_Fundamentals\CoreMvc3_Fundamentals\publicshare\lMicrosoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager Information: 0 : User profile is available. Using 'C:\Users\apple\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+Microsoft.Hosting.Lifetime Information: 0 : Application started. Press Ctrl+C to shut down.
+Microsoft.Hosting.Lifetime Information: 0 : Hosting environment: Development
+Microsoft.Hosting.Lifetime Information: 0 : Content root path: Y:\CoreMvc3Examples\CoreMvc3_Fundamentals\CoreMvc3_Fundamentals
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 1 : Request starting HTTP/2.0 GET https://localhost:44348/  
+Microsoft.AspNetCore.Routing.EndpointMiddleware Information: 0 : Executing endpoint 'CoreMvc3_Fundamentals.Controllers.HomeController.Index (CoreMvc3_Fundamentals)'
+Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Information: 3 : Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CoreMvc3_Fundamentals.Controllers.HomeController (CoreMvc3_Fundamentals).
+CoreMvc3_Fundamentals.Controllers.HomeController Verbose: 1234 : Logging - LogDebug()記錄資訊- Home/Index被呼叫
+Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor Information: 1 : Executing ViewResult, running view Index.
+Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor Information: 4 : Executed ViewResult - view Index executed in 477.0761ms.
+Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Information: 2 : Executed action CoreMvc3_Fundamentals.Controllers.HomeController.Index (CoreMvc3_Fundamentals) in 631.7011ms
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 1 : Request starting HTTP/2.0 GET https://localhost:44348/lib/bootstrap/dist/css/bootstrap.min.css  
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 1 : Request starting HTTP/2.0 GET https://localhost:44348/css/site.css  
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 1 : Request starting HTTP/2.0 GET https://localhost:44348/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0  
+Microsoft.AspNetCore.Routing.EndpointMiddleware Information: 1 : Executed endpoint 'CoreMvc3_Fundamentals.Controllers.HomeController.Index (CoreMvc3_Fundamentals)'
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 2 : Request finished in 1589.9194ms 200 text/html; charset=utf-8
+Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware Information: 2 : Sending file. Request path: '/css/site.css'. Physical path: 'Y:\CoreMvc3Examples\CoreMvc3_Fundamentals\CoreMvc3_Fundamentals\publicshare\css\site.css'
+Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware Information: 2 : Sending file. Request path: '/js/site.js'. Physical path: 'Y:\CoreMvc3Examples\CoreMvc3_Fundamentals\CoreMvc3_Fundamentals\publicshare\js\site.js'
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 2 : Request finished in 519.1486ms 200 application/javascript
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 2 : Request finished in 640.3776ms 200 text/css
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 1 : Request starting HTTP/2.0 GET https://localhost:44348/lib/jquery/dist/jquery.min.js  
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 1 : Request starting HTTP/2.0 GET https://localhost:44348/lib/bootstrap/dist/js/bootstrap.bundle.min.js  
+Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware Information: 2 : Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'Y:\CoreMvc3Examples\CoreMvc3_Fundamentals\CoreMvc3_Fundamentals\publicshare\lib\bootstrap\dist\css\bootstrap.min.css'
+Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware Information: 2 : Sending file. Request path: '/lib/jquery/dist/jquery.min.js'. Physical path: 'Y:\CoreMvc3Examples\CoreMvc3_Fundamentals\CoreMvc3_Fundamentals\publicshare\lib\jquery\dist\jquery.min.js'
+Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware Information: 2 : Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'. Physical path: 'Y:\CMicrosoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager Information: 0 : User profile is available. Using 'C:\Users\apple\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+Microsoft.Hosting.Lifetime Information: 0 : Now listening on: https://localhost:5001
+Microsoft.Hosting.Lifetime Information: 0 : Now listening on: http://localhost:5000
+Microsoft.Hosting.Lifetime Information: 0 : Application started. Press Ctrl+C to shut down.
+Microsoft.Hosting.Lifetime Information: 0 : Hosting environment: Development
+Microsoft.Hosting.Lifetime Information: 0 : Content root path: Y:\CoreMvc3Examples\CoreMvc3_Fundamentals\CoreMvc3_Fundamentals
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 1 : Request starting HTTP/2 GET https://localhost:5001/  
+Microsoft.AspNetCore.Routing.EndpointMiddleware Information: 0 : Executing endpoint 'CoreMvc3_Fundamentals.Controllers.HomeController.Index (CoreMvc3_Fundamentals)'
+Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Information: 3 : Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CoreMvc3_Fundamentals.Controllers.HomeController (CoreMvc3_Fundamentals).
+Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Information: 1 : Executing action method CoreMvc3_Fundamentals.Controllers.HomeController.Index (CoreMvc3_Fundamentals) - Validation state: Valid
+CoreMvc3_Fundamentals.Controllers.HomeController Verbose: 1234 : Logging - LogDebug()記錄資訊- Home/Index被呼叫
+Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Information: 2 : Executed action method CoreMvc3_Fundamentals.Controllers.HomeController.Index (CoreMvc3_Fundamentals), returned result Microsoft.AspNetCore.Mvc.ViewResult in 13.1583ms.
+Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor Information: 1 : Executing ViewResult, running view Index.
+Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor Information: 4 : Executed ViewResult - view Index executed in 251.0177ms.
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 1 : Request starting HTTP/2 GET https://localhost:5001/lib/bootstrap/dist/css/bootstrap.min.css  
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 1 : Request starting HTTP/2 GET https://localhost:5001/lib/jquery/dist/jquery.min.js  
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 1 : Request starting HTTP/2 GET https://localhost:5001/lib/bootstrap/dist/js/bootstrap.bundle.min.js  
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 1 : Request starting HTTP/2 GET https://localhost:5001/css/site.css  
+Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Information: 2 : Executed action CoreMvc3_Fundamentals.Controllers.HomeController.Index (CoreMvc3_Fundamentals) in 711.8661ms
+Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware Information: 2 : Sending file. Request path: '/css/site.css'. Physical path: 'Y:\CoreMvc3Examples\CoreMvc3_Fundamentals\CoreMvc3_Fundamentals\publicshare\css\site.css'
+Microsoft.AspNetCore.Routing.EndpointMiddleware Information: 1 : Executed endpoint 'CoreMvc3_Fundamentals.Controllers.HomeController.Index (CoreMvc3_Fundamentals)'
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 1 : Request starting HTTP/2 GET https://localhost:5001/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0  
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 2 : Request finished in 240.7863ms 200 text/css
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 2 : Request finished in 1118.6913ms 200 text/html; charset=utf-8
+Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware Information: 2 : Sending file. Request path: '/js/site.js'. Physical path: 'Y:\CoreMvc3Examples\CoreMvc3_Fundamentals\CoreMvc3_Fundamentals\publicshare\js\site.js'
+Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware Information: 2 : Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'. Physical path: 'Y:\CoreMvc3Examples\CoreMvc3_Fundamentals\Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager Information: 0 : User profile is available. Using 'C:\Users\apple\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+Microsoft.Hosting.Lifetime Information: 0 : Now listening on: https://localhost:5001
+Microsoft.Hosting.Lifetime Information: 0 : Now listening on: http://localhost:5000
+Microsoft.Hosting.Lifetime Information: 0 : Application started. Press Ctrl+C to shut down.
+Microsoft.Hosting.Lifetime Information: 0 : Hosting environment: Development
+Microsoft.Hosting.Lifetime Information: 0 : Content root path: Y:\CoreMvc3Examples\CoreMvc3_Fundamentals\CoreMvc3_Fundamentals
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 1 : Request starting HTTP/2 GET https://localhost:5001/  
+Microsoft.AspNetCore.Routing.EndpointMiddleware Information: 0 : Executing endpoint 'CoreMvc3_Fundamentals.Controllers.HomeController.Index (CoreMvc3_Fundamentals)'
+Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Information: 3 : Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CoreMvc3_Fundamentals.Controllers.HomeController (CoreMvc3_Fundamentals).
+CoreMvc3_Fundamentals.Controllers.HomeController Verbose: 1234 : Logging - LogDebug()記錄資訊- Home/Index被呼叫
+Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor Information: 1 : Executing ViewResult, running view Index.
+Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor Information: 4 : Executed ViewResult - view Index executed in 241.6565ms.
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 1 : Request starting HTTP/2 GET https://localhost:5001/css/site.css  
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 1 : Request starting HTTP/2 GET https://localhost:5001/lib/bootstrap/dist/css/bootstrap.min.css  
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 1 : Request starting HTTP/2 GET https://localhost:5001/lib/jquery/dist/jquery.min.js  
+Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Information: 2 : Executed action CoreMvc3_Fundamentals.Controllers.HomeController.Index (CoreMvc3_Fundamentals) in 435.9234ms
+Microsoft.AspNetCore.Routing.EndpointMiddleware Information: 1 : Executed endpoint 'CoreMvc3_Fundamentals.Controllers.HomeController.Index (CoreMvc3_Fundamentals)'
+Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware Information: 2 : Sending file. Request path: '/css/site.css'. Physical path: 'Y:\CoreMvc3Examples\CoreMvc3_Fundamentals\CoreMvc3_Fundamentals\publicshare\css\site.css'
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 2 : Request finished in 734.4157ms 200 text/html; charset=utf-8
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 1 : Request starting HTTP/2 GET https://localhost:5001/lib/bootstrap/dist/js/bootstrap.bundle.min.js  
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 1 : Request starting HTTP/2 GET https://localhost:5001/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0  
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 2 : Request finished in 206.4038ms 200 text/css
+Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware Information: 2 : Sending file. Request path: '/js/site.js'. Physical path: 'Y:\CoreMvc3Examples\CoreMvc3_Fundamentals\CoreMvc3_Fundamentals\publicshare\js\site.js'
+Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware Information: 2 : Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'. Physical path: 'Y:\CoreMvc3Examples\CoreMvc3_Fundamentals\CoreMvc3_Fundamentals\publicshare\lib\bootstrap\dist\js\bootstrap.bundle.min.js'
+Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware Information: 2 : Sending file. Request path: '/lib/jquery/dist/jquery.min.js'. Physical path: 'Y:\CoreMvc3Examples\CoreMvc3_Fundamentals\CoreMvc3_Fundamentals\publicshare\lib\jquery\dist\jquery.min.js'
+Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware Information: 2 : Sending file. Request path: '/lib/bootstrap/dist/css/Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager Information: 0 : User profile is available. Using 'C:\Users\apple\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+Microsoft.Hosting.Lifetime Information: 0 : Now listening on: https://localhost:5001
+Microsoft.Hosting.Lifetime Information: 0 : Now listening on: http://localhost:5000
+Microsoft.Hosting.Lifetime Information: 0 : Application started. Press Ctrl+C to shut down.
+Microsoft.Hosting.Lifetime Information: 0 : Hosting environment: Development
+Microsoft.Hosting.Lifetime Information: 0 : Content root path: Y:\CoreMvc3Examples\CoreMvc3_Fundamentals\CoreMvc3_Fundamentals
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 1 : Request starting HTTP/2 GET https://localhost:5001/  
+Microsoft.AspNetCore.Routing.EndpointMiddleware Information: 0 : Executing endpoint 'CoreMvc3_Fundamentals.Controllers.HomeController.Index (CoreMvc3_Fundamentals)'
+Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Information: 3 : Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CoreMvc3_Fundamentals.Controllers.HomeController (CoreMvc3_Fundamentals).
+Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Information: 1 : Executing action method CoreMvc3_Fundamentals.Controllers.HomeController.Index (CoreMvc3_Fundamentals) - Validation state: Valid
+CoreMvc3_Fundamentals.Controllers.HomeController Verbose: 1234 : Logging - LogDebug()記錄資訊- Home/Index被呼叫
+Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Information: 2 : Executed action method CoreMvc3_Fundamentals.Controllers.HomeController.Index (CoreMvc3_Fundamentals), returned result Microsoft.AspNetCore.Mvc.ViewResult in 14.5071ms.
+Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor Information: 1 : Executing ViewResult, running view Index.
+Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor Information: 4 : Executed ViewResult - view Index executed in 303.9435ms.
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 1 : Request starting HTTP/2 GET https://localhost:5001/css/site.css  
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 1 : Request starting HTTP/2 GET https://localhost:5001/lib/jquery/dist/jquery.min.js  
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 1 : Request starting HTTP/2 GET https://localhost:5001/lib/bootstrap/dist/css/bootstrap.min.css  
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 1 : Request starting HTTP/2 GET https://localhost:5001/lib/bootstrap/dist/js/bootstrap.bundle.min.js  
+Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Information: 2 : Executed action CoreMvc3_Fundamentals.Controllers.HomeController.Index (CoreMvc3_Fundamentals) in 757.6622ms
+Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware Information: 2 : Sending file. Request path: '/css/site.css'. Physical path: 'Y:\CoreMvc3Examples\CoreMvc3_Fundamentals\CoreMvc3_Fundamentals\publicshare\css\site.css'
+Microsoft.AspNetCore.Routing.EndpointMiddleware Information: 1 : Executed endpoint 'CoreMvc3_Fundamentals.Controllers.HomeController.Index (CoreMvc3_Fundamentals)'
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 2 : Request finished in 336.8562ms 200 text/css
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 2 : Request finished in 1470.7843ms 200 text/html; charset=utf-8
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 1 : Request starting HTTP/2 GET https://localhost:5001/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0  
+Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware Information: 2 : Sending file. Request path: '/js/site.js'. Physical path: 'Y:\CoreMvc3Examples\CoreMvc3_Fundamentals\CoreMvc3_Fundamentals\publicshare\js\site.js'
+Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware Information: 2 : Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'. Physical path: 'Y:\CoreMvc3Examples\CoreMvc3_Fundamentals\Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager Information: 0 : User profile is available. Using 'C:\Users\apple\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+Microsoft.Hosting.Lifetime Information: 0 : Now listening on: https://localhost:5001
+Microsoft.Hosting.Lifetime Information: 0 : Now listening on: http://localhost:5000
+Microsoft.Hosting.Lifetime Information: 0 : Application started. Press Ctrl+C to shut down.
+Microsoft.Hosting.Lifetime Information: 0 : Hosting environment: Development
+Microsoft.Hosting.Lifetime Information: 0 : Content root path: Y:\CoreMvc3Examples\CoreMvc3_Fundamentals\CoreMvc3_Fundamentals
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 1 : Request starting HTTP/2 GET https://localhost:5001/  
+Microsoft.AspNetCore.Routing.EndpointMiddleware Information: 0 : Executing endpoint 'CoreMvc3_Fundamentals.Controllers.HomeController.Index (CoreMvc3_Fundamentals)'
+Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Information: 3 : Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CoreMvc3_Fundamentals.Controllers.HomeController (CoreMvc3_Fundamentals).
+CoreMvc3_Fundamentals.Controllers.HomeController Verbose: 1234 : Logging - LogDebug()記錄資訊- Home/Index被呼叫
+Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor Information: 1 : Executing ViewResult, running view Index.
+Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor Information: 4 : Executed ViewResult - view Index executed in 178.8375ms.
+Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Information: 2 : Executed action CoreMvc3_Fundamentals.Controllers.HomeController.Index (CoreMvc3_Fundamentals) in 221.299ms
+Microsoft.AspNetCore.Routing.EndpointMiddleware Information: 1 : Executed endpoint 'CoreMvc3_Fundamentals.Controllers.HomeController.Index (CoreMvc3_Fundamentals)'
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 2 : Request finished in 355.3678ms 200 text/html; charset=utf-8
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 1 : Request starting HTTP/2 GET https://localhost:5001/lib/bootstrap/dist/css/bootstrap.min.css  
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 1 : Request starting HTTP/2 GET https://localhost:5001/lib/bootstrap/dist/js/bootstrap.bundle.min.js  
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 1 : Request starting HTTP/2 GET https://localhost:5001/css/site.css  
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 1 : Request starting HTTP/2 GET https://localhost:5001/lib/jquery/dist/jquery.min.js  
+Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware Information: 2 : Sending file. Request path: '/css/site.css'. Physical path: 'Y:\CoreMvc3Examples\CoreMvc3_Fundamentals\CoreMvc3_Fundamentals\publicshare\css\site.css'
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 1 : Request starting HTTP/2 GET https://localhost:5001/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0  
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 2 : Request finished in 35.9742ms 200 text/css
+Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware Information: 2 : Sending file. Request path: '/js/site.js'. Physical path: 'Y:\CoreMvc3Examples\CoreMvc3_Fundamentals\CoreMvc3_Fundamentals\publicshare\js\site.js'
+Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware Information: 2 : Sending file. Request path: '/lib/jquery/dist/jquery.min.js'. Physical path: 'Y:\CoreMvc3Examples\CoreMvc3_Fundamentals\CoreMvc3_Fundamentals\publicshare\lib\jquery\dist\jquery.min.js'
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 2 : Request finished in 40.1125ms 200 application/javascript
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 2 : Request finished in 76.1265ms 200 application/javascript
+Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware Information: 2 : Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'. Physical path: 'Y:\CoreMvc3Examples\CoreMvc3_Fundamentals\CoreMvc3_Fundamentals\publicshare\lib\bootstrap\dist\js\bootstrap.bundle.min.js'
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 2 : Request finished in 78.5406ms 200 application/javascript
+Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware Information: 2 : Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'Y:\CoreMvc3Examples\CoreMvc3_Fundamentals\CoreMvc3_Fundamentals\publicshare\lib\bootstrap\dist\css\bootstrap.min.css'
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 2 : Request finished in 93.2216ms 200 text/css
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 1 : Request starting HTTP/2 GET https://localhost:5001/favicon.ico  
+Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware Information: 2 : Sending file. Request path: '/favicon.ico'. Physical path: 'Y:\CoreMvc3Examples\CoreMvc3_Fundamentals\CoreMvc3_Fundamentals\publicshare\favicon.ico'
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 2 : Request finished in 32.1404ms 200 image/x-icon
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 1 : Request starting HTTP/2 GET https://localhost:5001/Home/LogMethds  
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 2 : Request finished in 7.1908ms 404 
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 1 : Request starting HTTP/2 GET https://localhost:5001/Home/LogMethods  
+Microsoft.AspNetCore.Routing.EndpointMiddleware Information: 0 : Executing endpoint 'CoreMvc3_Fundamentals.Controllers.HomeController.LogMethods (CoreMvc3_Fundamentals)'
+Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Information: 3 : Route matched with {action = "LogMethods", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult LogMethods() on controller CoreMvc3_Fundamentals.Controllers.HomeController (CoreMvc3_Fundamentals).
+CoreMvc3_Fundamentals.Controllers.HomeController Verbose: 1234 : 目前環境是:Development
+CoreMvc3_Fundamentals.Controllers.HomeController Critical: 1234 : 用LogCritical方法記錄資訊
+CoreMvc3_Fundamentals.Controllers.HomeController Error: 1234 : 用LogError方法記錄資訊
+CoreMvc3_Fundamentals.Controllers.HomeController Warning: 1234 : 用LogWarning方法記錄資訊
+CoreMvc3_Fundamentals.Controllers.HomeController Information: 1234 : 用LogInformation方法記錄資訊
+CoreMvc3_Fundamentals.Controllers.HomeController Verbose: 1234 : 用LogDebug方法記錄資訊
+Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Information: 2 : Executed action CoreMvc3_Fundamentals.Controllers.HomeController.LogMethods (CoreMvc3_Fundamentals) in 15.5338ms
+Microsoft.AspNetCore.Routing.EndpointMiddleware Information: 1 : Executed endpoint 'CoreMvc3_Fundamentals.Controllers.HomeController.LogMethods (CoreMvc3_Fundamentals)'
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 2 : Request finished in 30.7218ms 200 
+Microsoft.Hosting.Lifetime Information: 0 : Application is shutting down...
+Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager Information: 0 : User profile is available. Using 'C:\Users\apple\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+Microsoft.Hosting.Lifetime Information: 0 : Now listening on: https://localhost:5001
+Microsoft.Hosting.Lifetime Information: 0 : Now listening on: http://localhost:5000
+Microsoft.Hosting.Lifetime Information: 0 : Application started. Press Ctrl+C to shut down.
+Microsoft.Hosting.Lifetime Information: 0 : Hosting environment: Development
+Microsoft.Hosting.Lifetime Information: 0 : Content root path: Y:\CoreMvc3Examples\CoreMvc3_Fundamentals\CoreMvc3_Fundamentals
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 1 : Request starting HTTP/2 GET https://localhost:5001/Home/Index  
+Microsoft.AspNetCore.Routing.EndpointMiddleware Information: 0 : Executing endpoint 'CoreMvc3_Fundamentals.Controllers.HomeController.Index (CoreMvc3_Fundamentals)'
+Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Information: 3 : Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CoreMvc3_Fundamentals.Controllers.HomeController (CoreMvc3_Fundamentals).
+CoreMvc3_Fundamentals.Controllers.HomeController Verbose: 1234 : Logging - LogDebug()記錄資訊- Home/Index被呼叫
+Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor Information: 1 : Executing ViewResult, running view Index.
+Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor Information: 4 : Executed ViewResult - view Index executed in 173.0633ms.
+Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Information: 2 : Executed action CoreMvc3_Fundamentals.Controllers.HomeController.Index (CoreMvc3_Fundamentals) in 214.1502ms
+Microsoft.AspNetCore.Routing.EndpointMiddleware Information: 1 : Executed endpoint 'CoreMvc3_Fundamentals.Controllers.HomeController.Index (CoreMvc3_Fundamentals)'
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 2 : Request finished in 348.442ms 200 text/html; charset=utf-8
+Microsoft.Hosting.Lifetime Information: 0 : Application is shutting down...
+Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager Information: 0 : User profile is available. Using 'C:\Users\apple\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+Microsoft.Hosting.Lifetime Information: 0 : Now listening on: https://localhost:5001
+Microsoft.Hosting.Lifetime Information: 0 : Now listening on: http://localhost:5000
+Microsoft.Hosting.Lifetime Information: 0 : Application started. Press Ctrl+C to shut down.
+Microsoft.Hosting.Lifetime Information: 0 : Hosting environment: Development
+Microsoft.Hosting.Lifetime Information: 0 : Content root path: Y:\CoreMvc3Examples\CoreMvc3_Fundamentals\CoreMvc3_Fundamentals
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 1 : Request starting HTTP/2 GET https://localhost:5001/Home/Index  
+Microsoft.AspNetCore.Routing.EndpointMiddleware Information: 0 : Executing endpoint 'CoreMvc3_Fundamentals.Controllers.HomeController.Index (CoreMvc3_Fundamentals)'
+Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Information: 3 : Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CoreMvc3_Fundamentals.Controllers.HomeController (CoreMvc3_Fundamentals).
+CoreMvc3_Fundamentals.Controllers.HomeController Verbose: 1234 : Logging - LogDebug()記錄資訊- Home/Index被呼叫
+CoreMvc3_Fundamentals.Controllers.HomeController Warning: 1234 : Logging - LogWarning()記錄資訊- Home/Index被呼叫
+Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor Information: 1 : Executing ViewResult, running view Index.
+Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor Information: 4 : Executed ViewResult - view Index executed in 240.9242ms.
+Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Information: 2 : Executed action CoreMvc3_Fundamentals.Controllers.HomeController.Index (CoreMvc3_Fundamentals) in 290.5133ms
+Microsoft.AspNetCore.Routing.EndpointMiddleware Information: 1 : Executed endpoint 'CoreMvc3_Fundamentals.Controllers.HomeController.Index (CoreMvc3_Fundamentals)'
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 2 : Request finished in 441.4071ms 200 text/html; charset=utf-8
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 1 : Request starting HTTP/2 GET https://localhost:5001/favicon.ico  
+Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware Information: 2 : Sending file. Request path: '/favicon.ico'. Physical path: 'Y:\CoreMvc3Examples\CoreMvc3_Fundamentals\CoreMvc3_Fundamentals\publicshare\favicon.ico'
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 2 : Request finished in 35.8729ms 200 image/x-icon
+Microsoft.Hosting.Lifetime Information: 0 : Application is shutting down...
+Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager Information: 0 : User profile is available. Using 'C:\Users\apple\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+Microsoft.Hosting.Lifetime Information: 0 : Now listening on: https://localhost:5001
+Microsoft.Hosting.Lifetime Information: 0 : Now listening on: http://localhost:5000
+Microsoft.Hosting.Lifetime Information: 0 : Application started. Press Ctrl+C to shut down.
+Microsoft.Hosting.Lifetime Information: 0 : Hosting environment: Development
+Microsoft.Hosting.Lifetime Information: 0 : Content root path: Y:\CoreMvc3Examples\CoreMvc3_Fundamentals\CoreMvc3_Fundamentals
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 1 : Request starting HTTP/2 GET https://localhost:5001/  
+Microsoft.AspNetCore.Routing.EndpointMiddleware Information: 0 : Executing endpoint 'CoreMvc3_Fundamentals.Controllers.HomeController.Index (CoreMvc3_Fundamentals)'
+Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Information: 3 : Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CoreMvc3_Fundamentals.Controllers.HomeController (CoreMvc3_Fundamentals).
+Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Information: 1 : Executing action method CoreMvc3_Fundamentals.Controllers.HomeController.Index (CoreMvc3_Fundamentals) - Validation state: Valid
+CoreMvc3_Fundamentals.Controllers.HomeController Verbose: 3456 : Logging - LogDebug()記錄資訊- Home/Index被呼叫
+CoreMvc3_Fundamentals.Controllers.HomeController Warning: 3456 : Logging - LogWarning()記錄資訊- Home/Index被呼叫
+Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Information: 2 : Executed action method CoreMvc3_Fundamentals.Controllers.HomeController.Index (CoreMvc3_Fundamentals), returned result Microsoft.AspNetCore.Mvc.ViewResult in 33.8053ms.
+Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor Information: 1 : Executing ViewResult, running view Index.
+Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor Information: 4 : Executed ViewResult - view Index executed in 399.8923ms.
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 1 : Request starting HTTP/2 GET https://localhost:5001/lib/bootstrap/dist/css/bootstrap.min.css  
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 1 : Request starting HTTP/2 GET https://localhost:5001/css/site.css  
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 1 : Request starting HTTP/2 GET https://localhost:5001/lib/jquery/dist/jquery.min.js  
+Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Information: 2 : Executed action CoreMvc3_Fundamentals.Controllers.HomeController.Index (CoreMvc3_Fundamentals) in 937.5978ms
+Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware Information: 2 : Sending file. Request path: '/css/site.css'. Physical path: 'Y:\CoreMvc3Examples\CoreMvc3_Fundamentals\CoreMvc3_Fundamentals\publicshare\css\site.css'
+Microsoft.AspNetCore.Routing.EndpointMiddleware Information: 1 : Executed endpoint 'CoreMvc3_Fundamentals.Controllers.HomeController.Index (CoreMvc3_Fundamentals)'
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 1 : Request starting HTTP/2 GET https://localhost:5001/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0  
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 1 : Request starting HTTP/2 GET https://localhost:5001/lib/bootstrap/dist/js/bootstrap.bundle.min.js  
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 2 : Request finished in 511.5481ms 200 text/css
+Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware Information: 2 : Sending file. Request path: '/js/site.js'. Physical path: 'Y:\CoreMvc3Examples\CoreMvc3_Fundamentals\CoreMvc3_Fundamentals\publicshare\js\site.js'
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 2 : Request finished in 1456.0679ms 200 text/html; charset=utf-8
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 2 : Request finished in 520.4086ms 200 application/javascript
+Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware Information: 2 : Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'. Physical path: 'Y:\CoreMvc3Examples\CoreMvc3_Fundamentals\CoreMvc3_Fundamentals\publicshare\lib\bootstrap\dist\js\bootstrap.bundle.min.js'
+Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware Information: 2 : Sending file. Request path: '/lib/jquery/dist/jquery.min.js'. Physical path: 'Y:\CoreMvc3Examples\CoreMvc3_Fundamentals\CoreMvc3_Fundamentals\publicshare\lib\jquery\dist\jquery.min.js'
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 2 : Request finished in 793.2046ms 200 application/javascript
+Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware Information: 2 : Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'Y:\CoreMvc3Examples\CoreMvc3_Fundamentals\CoreMvc3_Fundamentals\publicshare\lib\bootstrap\dist\css\bootstrap.min.css'
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 2 : Request finished in 1220.1466ms 200 application/javascript
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 2 : Request finished in 2022.6833ms 200 text/css
+Microsoft.Hosting.Lifetime Information: 0 : Application is shutting down...
+Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager Information: 0 : User profile is available. Using 'C:\Users\apple\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+Microsoft.Hosting.Lifetime Information: 0 : Now listening on: https://localhost:5001
+Microsoft.Hosting.Lifetime Information: 0 : Now listening on: http://localhost:5000
+Microsoft.Hosting.Lifetime Information: 0 : Application started. Press Ctrl+C to shut down.
+Microsoft.Hosting.Lifetime Information: 0 : Hosting environment: Development
+Microsoft.Hosting.Lifetime Information: 0 : Content root path: Y:\CoreMvc3Examples\CoreMvc3_Fundamentals\CoreMvc3_Fundamentals
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 1 : Request starting HTTP/2 GET https://localhost:5001/  
+Microsoft.AspNetCore.Routing.EndpointMiddleware Information: 0 : Executing endpoint 'CoreMvc3_Fundamentals.Controllers.HomeController.Index (CoreMvc3_Fundamentals)'
+Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Information: 3 : Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CoreMvc3_Fundamentals.Controllers.HomeController (CoreMvc3_Fundamentals).
+CoreMvc3_Fundamentals.Controllers.HomeController Verbose: 3456 : Logging - LogDebug()記錄資訊- Home/Index被呼叫
+CoreMvc3_Fundamentals.Controllers.HomeController Warning: 3456 : Logging - LogWarning()記錄資訊- Home/Index被呼叫
+Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor Information: 1 : Executing ViewResult, running view Index.
+Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor Information: 4 : Executed ViewResult - view Index executed in 262.3044ms.
+Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Information: 2 : Executed action CoreMvc3_Fundamentals.Controllers.HomeController.Index (CoreMvc3_Fundamentals) in 379.1347ms
+Microsoft.AspNetCore.Routing.EndpointMiddleware Information: 1 : Executed endpoint 'CoreMvc3_Fundamentals.Controllers.HomeController.Index (CoreMvc3_Fundamentals)'
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 1 : Request starting HTTP/2 GET https://localhost:5001/css/site.css  
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 1 : Request starting HTTP/2 GET https://localhost:5001/lib/bootstrap/dist/css/bootstrap.min.css  
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 2 : Request finished in 658.1701ms 200 text/html; charset=utf-8
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 1 : Request starting HTTP/2 GET https://localhost:5001/lib/jquery/dist/jquery.min.js  
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 1 : Request starting HTTP/2 GET https://localhost:5001/lib/bootstrap/dist/js/bootstrap.bundle.min.js  
+Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware Information: 2 : Sending file. Request path: '/css/site.css'. Physical path: 'Y:\CoreMvc3Examples\CoreMvc3_Fundamentals\CoreMvc3_Fundamentals\publicshare\css\site.css'
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 1 : Request starting HTTP/2 GET https://localhost:5001/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0  
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 2 : Request finished in 269.9249ms 200 text/css
+Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware Information: 2 : Sending file. Request path: '/js/site.js'. Physical path: 'Y:\CoreMvc3Examples\CoreMvc3_Fundamentals\CoreMvc3_Fundamentals\publicshare\js\site.js'
+Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware Information: 2 : Sending file. Request path: '/lib/jquery/dist/jquery.min.js'. Physical path: 'Y:\CoreMvc3Examples\CoreMvc3_Fundamentals\CoreMvc3_Fundamentals\publicshare\lib\jquery\dist\jquery.min.js'
+Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware Information: 2 : Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'. Physical path: 'Y:\CoreMvc3Examples\CoreMvc3_Fundamentals\CoreMvc3_Fundamentals\publicshare\lib\bootstrap\dist\js\bootstrap.bundle.min.js'
+Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware Information: 2 : Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'Y:\CoreMvc3Examples\CoreMvc3_Fundamentals\CoreMvc3_Fundamentals\publicshare\lib\bootstrap\dist\css\bootstrap.min.css'
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 2 : Request finished in 427.7517ms 200 application/javascript
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 2 : Request finished in 522.9885ms 200 application/javascript
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 2 : Request finished in 629.9272ms 200 application/javascript
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 2 : Request finished in 643.6235ms 200 text/css
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 1 : Request starting HTTP/2 GET https://localhost:5001/Home/Index  
+Microsoft.AspNetCore.Routing.EndpointMiddleware Information: 0 : Executing endpoint 'CoreMvc3_Fundamentals.Controllers.HomeController.Index (CoreMvc3_Fundamentals)'
+Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Information: 3 : Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CoreMvc3_Fundamentals.Controllers.HomeController (CoreMvc3_Fundamentals).
+CoreMvc3_Fundamentals.Controllers.HomeController Verbose: 3456 : Logging - LogDebug()記錄資訊- Home/Index被呼叫
+CoreMvc3_Fundamentals.Controllers.HomeController Warning: 3456 : Logging - LogWarning()記錄資訊- Home/Index被呼叫
+Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor Information: 1 : Executing ViewResult, running view Index.
+Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor Information: 4 : Executed ViewResult - view Index executed in 25.1953ms.
+Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker Information: 2 : Executed action CoreMvc3_Fundamentals.Controllers.HomeController.Index (CoreMvc3_Fundamentals) in 76.4059ms
+Microsoft.AspNetCore.Routing.EndpointMiddleware Information: 1 : Executed endpoint 'CoreMvc3_Fundamentals.Controllers.HomeController.Index (CoreMvc3_Fundamentals)'
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 1 : Request starting HTTP/2 GET https://localhost:5001/lib/bootstrap/dist/css/bootstrap.min.css  
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 1 : Request starting HTTP/2 GET https://localhost:5001/css/site.css  
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 2 : Request finished in 320.2794ms 200 text/html; charset=utf-8
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 1 : Request starting HTTP/2 GET https://localhost:5001/lib/jquery/dist/jquery.min.js  
+Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware Information: 2 : Sending file. Request path: '/css/site.css'. Physical path: 'Y:\CoreMvc3Examples\CoreMvc3_Fundamentals\CoreMvc3_Fundamentals\publicshare\css\site.css'
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 1 : Request starting HTTP/2 GET https://localhost:5001/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0  
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 1 : Request starting HTTP/2 GET https://localhost:5001/lib/bootstrap/dist/js/bootstrap.bundle.min.js  
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 2 : Request finished in 260.2745ms 200 text/css
+Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware Information: 2 : Sending file. Request path: '/lib/jquery/dist/jquery.min.js'. Physical path: 'Y:\CoreMvc3Examples\CoreMvc3_Fundamentals\CoreMvc3_Fundamentals\publicshare\lib\jquery\dist\jquery.min.js'
+Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware Information: 2 : Sending file. Request path: '/js/site.js'. Physical path: 'Y:\CoreMvc3Examples\CoreMvc3_Fundamentals\CoreMvc3_Fundamentals\publicshare\js\site.js'
+Microsoft.AspNetCore.Hosting.Diagnostics Information: 2 : Request finished in 552.5683ms 200 application/javascript
+Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware Information: 2 : Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'Y:\CoreM

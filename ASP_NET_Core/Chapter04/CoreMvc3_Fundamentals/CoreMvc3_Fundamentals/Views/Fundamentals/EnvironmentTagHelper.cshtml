@@ -1,0 +1,47 @@
+﻿@{
+    ViewData["Title"] = "EnvironmentTagHelper";
+
+}
+
+<div class="jumbotron bg-info">
+    <h1>在View中注入IHostEnvironment</h1>
+</div>
+
+<environment include="Development">
+    <h2><span class="badge badge-primary">Development開發環境</span></h2>
+</environment>
+
+<environment include="Staging">
+    <h2><span class="badge badge-danger">Staging開發環境</span></h2>
+</environment>
+
+<environment include="Production">
+    <h2><span class="badge badge-warning">Production開發環境</span></h2>
+</environment>
+
+@section endJS
+{
+    <environment include="Development">
+        <script>
+            function Development() {
+                alert("This is Development Environment.");
+            }
+        </script>
+    </environment>
+
+    <environment include="Staging">
+        <script>
+            function Staging() {
+                alert("This is Staging Environment.");
+            }
+        </script>
+    </environment>
+
+    <environment include="Production">
+        <script>
+            function Production() {
+                alert("This is Production Environment.");
+            }
+        </script>
+    </environment>
+}

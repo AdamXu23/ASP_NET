@@ -1,0 +1,23 @@
+﻿@inject Microsoft.AspNetCore.Hosting.IWebHostEnvironment env
+
+@{
+    ViewData["Title"] = "InjectEnvironment";
+
+    //C# 8 switch expression
+    string DisplayEnvironment(string envName) =>
+        envName switch
+        {
+            "Development" => "開發環境",
+            "Staging" => "預備環境",
+            "Production" => "生產環境",
+            _ => "其他環境"
+        };
+}
+
+
+<div class="jumbotron bg-info">
+    <h1>在View中注入IHostEnvironment</h1>
+</div>
+
+<p>目前環境是: @DisplayEnvironment(env.EnvironmentName)</p>
+

@@ -1,0 +1,42 @@
+﻿<nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+    <div class="container">
+        <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">Fundamentals</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
+            <ul class="navbar-nav flex-grow-1">
+                <li class="nav-item">
+                    <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+                </li>
+                &emsp;
+                <li class="nav-item dropdown">
+                    <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Fundamentals控制器
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="~/Fundamentals/EnvironmentName/">顯示環境名稱</a>
+                        <a class="dropdown-item" href="~/Fundamentals/InjectEnvironment/">在View中注入IHostingEnvironment</a>
+                        <a class="dropdown-item" href="~/Fundamentals/EnvironmentTagHelper/">Environment結合Environment Tag Helper</a>
+                        <a class="dropdown-item" href="~/Fundamentals/ReadAppsettings/">讀取appsettings.json組態值</a>
+                        <a class="dropdown-item" href="~/Fundamentals/AccessDeveloperOptions/">存取DeveloperOptions選項類別</a>
+                    </div>
+                </li>
+                &emsp;
+                <li class="nav-item dropdown">
+                    <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        RootPath控制器
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="~/RootPath/ContentRootPath/">Content Root Path</a>
+                        <a class="dropdown-item" href="~/RootPath/WebRootPath/">Web Root Path</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>

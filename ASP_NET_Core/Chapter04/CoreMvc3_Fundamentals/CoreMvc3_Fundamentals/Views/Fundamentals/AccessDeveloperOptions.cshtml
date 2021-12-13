@@ -1,0 +1,18 @@
+﻿@using Microsoft.Extensions.Options
+@inject IOptionsMonitor<DeveloperOptions> developerOptions
+
+@{
+    ViewData["Title"] = "AccessDeveloperOptions";
+
+    var devOptions = developerOptions.CurrentValue;
+}
+
+<div class="jumbotron bg-info">
+    <h1>存取DeveloperOptions選項類別</h1>
+</div>
+
+<ul>
+    <li>Name : @devOptions.Name</li>
+    <li>Email : @devOptions.Email</li>
+    <li>Website : @devOptions.Website</li>
+</ul>
