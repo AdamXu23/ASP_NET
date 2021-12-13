@@ -1,0 +1,80 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="../lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <script src="../lib/Chart.js/Chart.min.js"></script>
+    <script src="../js/Colors.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="jumbotron alert-success p-3">
+            <h2>以Line Chart的filling mode填充模式</h2>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <canvas id="chart1"></canvas>
+            </div>
+            <div class="col-md-6">
+                <canvas id="chart2"></canvas>
+            </div>
+            <div class="col-md-6">
+                <canvas id="chart3"></canvas>
+            </div>
+            <div class="col-md-6">
+                <canvas id="chart4"></canvas>
+            </div>
+        </div>
+    </div>
+    <script>
+        var ctx1 = document.getElementById('chart1');
+        var ctx2 = document.getElementById('chart2');
+        var ctx3 = document.getElementById('chart3');
+        var ctx4 = document.getElementById('chart4');
+
+        lineChart(ctx1, false);
+        lineChart(ctx2, 'origin');
+        lineChart(ctx3, 'start');
+        lineChart(ctx4, 'end');
+
+        function lineChart(context, fillmode) {
+            var chart = new Chart(context, {
+                type: 'line',
+                data: {
+                    labels: ['1月', '2月', '3月', '4月', '5月', '6月'],
+                    datasets: [{
+                        label: '1~6月均溫',
+                        data: [16, 15, 18, -21, 25, 27],
+                        fill: fillmode,
+                        pointRadius: 5,
+                        pointHoverRadius: 10,
+                        backgroundColor: getRandomColor(),
+                        borderColor: getRandomColor(),
+                        pointBackgroundColor: getRandomColor(),
+                        pointBorderColor: getRandomColor(),
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    title: {
+                        display: true,
+                        fontSize: 18,
+                        text: "fill = '" + fillmode + "'",
+                    },
+                    tooltips: {
+                        mode: 'point',
+                        intersect: true,
+                    },
+                    legend: {
+                        position: 'bottom',
+                        labels: {
+                            fontColor: 'black',
+                        }
+                    }
+                }
+            });
+        }
+    </script>
+</body>
+</html>

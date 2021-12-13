@@ -1,0 +1,96 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link href="../lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <script src="../lib/jquery/dist/jquery.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="jumbotron" >
+            <h3>JavaScript Object vs. JSON(JavaScript Object Notation)</h3>
+        </div>
+        <p id="p1" class="alert alert-info"></p>
+        <p id="p2" class="alert alert-warning"></p>
+        <p id="p3" class="alert alert-danger"></p>
+        <p id="p4" class="alert alert-success"></p>
+        <p id="p5" class="alert alert-info"></p>
+    </div>
+
+    <script>
+        //JavaScript Object
+        var jObjectPerson = {
+            firstName: "Mary",
+            lastName: "Wang",
+            age: 28,
+            fullName: function () { return this.firstName + " " + this.lastName + ", age: " + this.age; }
+        };
+
+        //JavaScript Object
+        var jObjectLady = new Object();
+        jObjectLady.firstName = "Mary";
+        jObjectLady.lastName = "Wang";
+        jObjectLady.age = 28;
+        jObjectLady.fullName= function () { return this.firstName + " " + this.lastName + ", age: " + this.age; }
+
+
+        //JavaScript Object Literal
+        var jObjectRose = {
+            "firstName": "Rose",
+            "lastName": "Chung",
+            "age": "22"
+        };
+
+        //JavaScript Array Literal
+        var people = ["David", "Kevin", "Mary"];
+        
+        var yourFriends = ["David", "Kevin", "Mary"];
+        var My = {
+            firstName: "Jimmy",
+            "LastName": "Chen",
+            "Friends": ["David", "Kevin", "Mary"]
+        }
+
+        var Yours = My;
+
+        //JSON純文字 -- 物件結構
+        var jsonObjectText = '{"firstName": "Tom", "lastName": "Lee", "age": "35"}';
+
+        //將JSON純文字轉成JavaScript Object
+        var jObjectTom = JSON.parse(jsonObjectText);
+
+        //JSON純文字 -- 陣列結構
+        var jsonArrayText = '[{"firstName": "Jack", "lastName": "Wu", "age": "32" }, {"firstName": "John", "lastName": "Du", "age": "37"}]';
+        //將JSON純文字轉成JavaScript Object
+        var jObjectPeople = JSON.parse(jsonArrayText);
+
+        var p1 = document.getElementById("p1");
+        var p2 = document.getElementById("p2");
+        var p3 = document.getElementById("p3");
+        var p4 = document.getElementById("p4");
+        var p5 = document.getElementById("p5");
+
+
+        //存取JavaScript Object的三個Properties
+        p1.innerHTML = jObjectPerson.firstName + jObjectPerson.lastName + ", age : " + jObjectPerson.age;
+
+        //存取JavaScript Object的function
+        p2.innerHTML = jObjectPerson.fullName();
+
+        p3.innerHTML = jObjectRose.firstName + " " + jObjectRose.lastName + ", age : " + jObjectRose.age;
+
+        p4.innerHTML = jObjectTom.firstName + " " + jObjectTom.lastName + ", age : " + jObjectTom.age;
+
+        var strPeople = "";
+        for (i = 0; i < jObjectPeople.length; i++){
+            strPeople += jObjectPeople[i].firstName + " " + jObjectPeople[i].lastName + ", age : " + jObjectPeople[i].age + "<br />";
+
+        }
+        p5.innerHTML = strPeople;
+
+    </script>
+
+
+</body>
+</html>

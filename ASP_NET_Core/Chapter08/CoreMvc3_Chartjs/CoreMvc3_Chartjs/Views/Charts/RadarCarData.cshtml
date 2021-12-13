@@ -1,0 +1,81 @@
+﻿
+@{
+    ViewData["Title"] = "RadarCarData";
+    var footerText = "汽車雜誌編輯評比";
+
+    //編碼成JSON格式
+    var scopeLabels = JsonSerializer.Serialize(ViewBag.ScopeLabels);
+    var suvScores = JsonSerializer.Serialize(ViewBag.SuvScores);
+    var sedanScores = JsonSerializer.Serialize(ViewBag.SedanScores);
+}
+
+<div class="jumbotron alert-success p-3">
+    <h2>以Radar Chart繪製車種不同面向比較</h2>
+</div>
+
+<div class="row">
+    <div class=" col-md-8 offset-md-2">
+        <div class="card text-center">
+            <div class="card-header">
+                <h3>Radar雷達圖 - SUV與轎車六大面向比較</h3>
+            </div>
+            <div class="card-body">
+                <canvas id="radarChart"></canvas>
+            </div>
+            <div class="card-footer text-muted">
+                <h4>@footerText</h4>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section endJS{
+    <script>
+    var ctx = document.getElementById('radarChart');
+    var chart = new Chart(ctx, {
+        type: 'radar',
+        data: {
+            labels: @Html.Raw(scopeLabels),
+            datasets: [{
+                label: "SUV",
+                data: @Html.Raw(suvScores),
+                backgroundColor: 'rgba(173,255,47, 0.5)',
+                borderColor: 'rgb(0,0,0)',
+                pointStyle: 'circle',
+                pointBackgroundColor: 'rgb(0,0,255)',
+                pointRadius: 5,
+                pointHoverRadius: 10
+            },
+            {
+                label: "轎車",
+                data: @Html.Raw(sedanScores),
+                backgroundColor: 'rgba(255,105,180, 0.5)',
+                borderColor: 'rgb(0,0,0)',
+                pointStyle: 'rect',
+                pointBackgroundColor: 'rgb(255,0,0)',
+                pointRadius: 5,
+                pointHoverRadius: 10,
+                borderDash: [10,5]
+            }]
+        },
+        options: {
+            responsive: true,
+            legend: {
+                position: 'top',
+                labels: {
+                    fontColor: 'black',
+                    fontSize: 24
+                }
+            },
+            scale: {
+                ticks: {
+                    beginAtZero: true
+                },
+                pointLabels: {
+                    fontSize: 20
+                },
+            },
+        }
+    });
+    </script>
+}

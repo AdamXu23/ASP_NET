@@ -1,0 +1,88 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="../lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <script src="../lib/Chart.js/Chart.min.js"></script>
+    <script src="../lib/Chart.js/Colors.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="jumbotron alert-success p-3">
+            <h2>pointStyle點樣式</h2>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <canvas id="chart1"></canvas>
+            </div>
+        </div>
+    </div>
+    <script>
+        var pStyle = ['circle', 'cross', 'crossRot', 'dash', 'line', 'rect', 'rectRounded', 'rectRot', 'star', 'triangle'];
+
+        var ctx = document.getElementById('chart1');
+
+        var chart = new Chart(ctx, {
+            type: 'line',
+            data: {
+                labels: pStyle,
+                datasets: [{
+                    label: 'pointStyle點樣式',
+                    data: [10, 10, 10, 10, 10, 10, 10, 10, 10, 10],
+                    pointStyle: ['circle', 'cross', 'crossRot', 'dash', 'line', 'rect', 'rectRounded', 'rectRot', 'star', 'triangle'],
+                    fill: false,
+                    showLine: false,
+                    pointRadius: 15,
+                    pointHoverRadius: 20,
+                    pointBackgroundColor: 'red',
+                    pointBorderColor: 'red',
+                    pointHoverBackgroundColor: 'cyan',
+                }]
+            },
+            options: {
+                responsive: true,
+                title: {
+                    display: true,
+                    fontSize: 24,
+                    text: 'pointStyle點樣式',
+                },
+                tooltips: {
+                    enabled: false,
+                },
+                legend: {
+                    display: false,
+                    position: 'bottom',
+                    labels: {
+                        fontColor: 'black',
+                    }
+                },
+                scales: {
+                    xAxes: [{
+                        ticks: {
+                            fontSize: 18,
+                        },
+                        gridLines: {
+                            display: true,
+                        }
+                    }],
+                    yAxes: [{
+                        ticks: {
+                            max: 10.5,
+                            min: 9.5,
+                            stepSize: 0.5
+                        },
+                        gridLines: {
+                            display: true,
+                        }
+                    }]
+
+                },
+                animation: {
+                    duration: 2000
+                },
+            }
+        });
+    </script>
+</body>
+</html>

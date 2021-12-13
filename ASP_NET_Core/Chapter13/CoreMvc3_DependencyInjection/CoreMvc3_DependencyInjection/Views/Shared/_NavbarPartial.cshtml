@@ -1,0 +1,63 @@
+﻿<nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+    <div class="container">
+        <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">DI</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
+            <ul class="navbar-nav flex-grow-1">
+                <li class="nav-item">
+                    <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+                </li>
+                &emsp;
+                <li class="nav-item dropdown">
+                    <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Controller的IBankService相依性注入
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="~/Bank/Balance/">Balance帳戶餘額查詢</a>
+                        <a class="dropdown-item" href="~/Bank/InjectAction/">在Action相依性注入</a>
+                    </div>
+                </li>
+                &emsp;
+                <li class="nav-item dropdown">
+                    <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        View相依性注入
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="~/Bank/InjectView/">在View注入IBankService相依性</a>
+                        <a class="dropdown-item" href="~/ViewInjection/InjectZipcodeService/">Inject ZipcodeService</a>
+                        <a class="dropdown-item" href="~/ViewInjection/InjectCityService/">Inject CityService</a>
+                        <a class="dropdown-item" href="~/ViewInjection/InjectDeviceData/">Inject DeviceData</a>
+                        <a class="dropdown-item" href="~/ViewInjection/InjectConfiguration/">Inject Configuration</a>
+                        <a class="dropdown-item" href="~/ViewInjection/InjectLogger/">Inject Logger</a>
+                    </div>
+                </li>
+                &emsp;
+                <li class="nav-item dropdown">
+                    <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        覆寫服務
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="~/Overriding/Helper/">用MyHtmlHelper覆寫HTML Helpers</a>
+                    </div>
+                </li>
+                &emsp;
+                <li class="nav-item dropdown">
+                    <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Options Pattern
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="~/Options/Foods/">Foods Options + DI</a>
+                        <a class="dropdown-item" href="~/Options/InjectSelectionWithOptions">Inject Selection with Options</a>
+                        <a class="dropdown-item" href="~/Options/ViewInjectionOption/">Foods ViewInjectionOption</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>

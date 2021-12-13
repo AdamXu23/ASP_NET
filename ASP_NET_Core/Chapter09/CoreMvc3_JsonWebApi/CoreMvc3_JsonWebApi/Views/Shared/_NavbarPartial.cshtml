@@ -1,0 +1,42 @@
+﻿<nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+    <div class="container">
+        <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">JsonWebApi</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
+            <ul class="navbar-nav flex-grow-1">
+                <li class="nav-item">
+                    <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">HtmlPages</a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="~/HtmlPages/JsonSyntax.html">JsonSyntax</a>
+                        <a class="dropdown-item" href="~/HtmlPages/JsonObject.html">JsonObject</a>
+                        <a class="dropdown-item" href="~/HtmlPages/JsonArray.html">JsonArray</a>
+                        <a class="dropdown-item" href="~/HtmlPages/JavaScriptObject.html">JavaScriptObject</a>
+                        <a class="dropdown-item" href="~/HtmlPages/jQueryAjaxCommands.html">jQueryAjaxCommand</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Json控制器</a>
+                    <div class="dropdown-menu">
+                        <a class="nav-link text-dark" asp-area="" asp-controller="Json" asp-action="JsonCommands">JsonCommands</a>
+                        <a class="nav-link text-dark" asp-area="" asp-controller="Json" asp-action="LineTemperatureJSON">LineTemperatureJSON</a>
+                        <a class="nav-link text-dark" asp-area="" asp-controller="Json" asp-action="CarSalesAjaxJSON">CarSalesAjaxJSON</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">JsonDataApi控制器</a>
+                    <div class="dropdown-menu">
+                        <a class="nav-link text-dark" asp-area="" asp-controller="JsonDataApi" asp-action="GetCarSalesNumber">GetCarSalesNumber</a>
+                        <a class="nav-link text-dark" asp-area="" asp-controller="JsonDataApi" asp-action="GetCarSalesNumberRandom">GetCarSalesNumberRandom</a>
+                        <a class="nav-link text-dark" asp-area="" asp-controller="JsonDataApi" asp-action="GetTemperature">GetTemperature></a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>

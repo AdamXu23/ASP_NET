@@ -1,0 +1,31 @@
+﻿@using Microsoft.Extensions.Configuration
+@inject IConfiguration config
+
+@{
+    var branches_Enumerable = config.GetSection("FutureCorp:Branches").AsEnumerable();
+    var branches_List = config.GetSection("FutureCorp:Branches").AsEnumerable().ToList();
+}
+
+<table class="table table-bordered table-striped">
+    <thead>
+        <tr>
+            <th>Key</th>
+            <th>Value</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in branches_Enumerable)
+        {
+            <tr>
+                <td>@item.Key</td>
+                <td>@item.Value</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+
+@section topCSS
+{
+    <link href="~/css/TableCaptionBlack.css" rel="stylesheet" />
+}

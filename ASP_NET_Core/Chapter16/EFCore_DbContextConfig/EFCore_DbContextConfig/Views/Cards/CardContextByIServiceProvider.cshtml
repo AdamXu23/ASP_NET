@@ -1,0 +1,21 @@
+﻿@model IEnumerable<Card>
+
+@{
+    ViewData["Title"] = "CardContextByIServiceProvider";
+}
+
+<div class="jumbotron bg-info text-center">
+    <h2>人物牌卡(從List集合資料動態產生)</h2>
+</div>
+
+<div class="row">
+    @foreach (var card in Model)
+    {
+        <partial name="_CardPartial" model="card" />
+    }
+
+</div>
+
+@section topCSS{
+    <link href="~/css/card.css" rel="stylesheet" />
+}

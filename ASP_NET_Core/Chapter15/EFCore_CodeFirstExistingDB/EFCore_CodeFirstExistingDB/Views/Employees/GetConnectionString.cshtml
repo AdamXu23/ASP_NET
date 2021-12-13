@@ -1,0 +1,23 @@
+﻿@inject IConfiguration config
+ 
+@{
+    ViewData["Title"] = "GetConnectionString";
+
+    //讀取appsettings.json資料庫連線字串
+    string conn1 = config.GetConnectionString("NorthwindConnection");
+    string conn2 = config["ConnectionStrings:NorthwindConnection"];
+    string conn3 = config.GetValue<string>("ConnectionStrings:NorthwindConnection");
+    string conn4 = config.GetSection("ConnectionStrings:NorthwindConnection").Value;
+    string conn5 = config.GetSection("ConnectionStrings")["NorthwindConnection"];
+}
+
+<div class="jumbotron bg-success">
+    <h1>讀取資料庫連線字串</h1>
+    <p>NorthwindConnection : @ViewData["Conn"]</p>
+</div>
+
+<p>@conn1</p>
+<p>@conn2</p>
+<p>@conn3</p>
+<p>@conn4</p>
+<p>@conn5</p>

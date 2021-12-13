@@ -1,0 +1,73 @@
+﻿@model List<Person>
+
+@{
+    ViewData["Title"] = "JsonCommands";
+
+    var persons = (List<Person>)Model;
+
+    //1.System.Text.Json - ASP.NET Core 3.0內建
+    string json1 = System.Text.Json.JsonSerializer.Serialize(persons);
+    var list1 = System.Text.Json.JsonSerializer.Deserialize<List<Person>>(json1);
+
+
+    //2.Newtonsoft.Json
+    string json2 = Newtonsoft.Json.JsonConvert.SerializeObject(persons);
+    var list2 = Newtonsoft.Json.JsonConvert.DeserializeObject<List<Person>>(json2);
+
+    //3.IJsonHelper
+    string json3 = Json.Serialize(persons).ToString();
+
+    //4.Utf8Json - 第三方的高效能JSON序列化及反序列化套件
+    string json4 = Utf8Json.JsonSerializer.ToJsonString(persons);
+    var list4 = Utf8Json.JsonSerializer.Deserialize<List<Person>>(json4);
+
+
+    //5.Jil - 第三方的高效能JSON序列化及反序列化套件
+    string json5 = Jil.JSON.Serialize(persons);
+    var list5 = Jil.JSON.Deserialize<List<Person>>(json5);
+}
+
+<div class="jumbotron alert-info">
+    <h2>JSON編碼與解碼</h2>
+</div>
+
+
+<div class="alert alert-primary">System.Text.Json.</div>
+<div>@json1</div>
+<div>@Html.Raw(json1)</div>
+
+<div class="alert alert-primary">Newtonsoft.Json</div>
+<div>@json2</div>
+
+<div class="alert alert-primary">IJsonHelper.Json</div>
+<div>@json3</div>
+
+<div class="alert alert-primary">Utf8Json</div>
+<div>@json4</div>
+
+<div class="alert alert-primary">Jil</div>
+<div>@json5</div>
+
+@section endJS
+{
+    <script>
+        //直接將JSON字串指派給View中JavaScript,因HTML編碼符號會導致錯誤
+        @*var jsArray = @json1;*@
+
+        //須使用@Html.Raw()方法不對JSON編碼
+        var jsArray2 = @Html.Raw(json1);
+
+        var x = 0;
+    </script>
+}
+
+
+@section topCSS
+{
+    <style>
+        div.alert.alert-primary {
+            margin-top: 10px;
+            border: 2px dashed black;
+        }
+    </style>
+}

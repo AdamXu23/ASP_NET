@@ -1,0 +1,12 @@
+﻿<style >
+.table caption {
+    caption-side: top;
+    text-align: center;
+}
+
+table thead {
+    background-color: black;
+    color: white;
+}
+
+</style >

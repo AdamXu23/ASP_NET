@@ -1,0 +1,26 @@
+﻿@model  DeviceOptions
+@inject IDeviceService deviceSerevice
+
+@{
+    ViewData["Title"] = "InjectDeviceData";
+}
+
+<h1>@deviceSerevice.ChooseCaption</h1>
+
+<form>
+    <label asp-for="Ram">記憶體</label>
+    <select asp-for="Ram" asp-items="deviceSerevice.GetDramList().Select(x=>new SelectListItem { Text=x, Value=x })"></select>
+    <br />
+
+    <label asp-for="Cpu">CPU</label>
+    <select asp-for="Cpu" asp-items="deviceSerevice.GetCpuList().Select(x=>new SelectListItem { Text=x, Value=x })"></select>
+    <br />
+
+    <label asp-for="Gpu">GPU</label>
+    <select asp-for="Gpu" asp-items="deviceSerevice.GetGpuList().Select(x=>new SelectListItem { Text=x, Value=x })"></select>
+    <br />
+
+    <label asp-for="Storage">儲存</label>
+    <select asp-for="Storage" asp-items="deviceSerevice.GetSsdList().Select(x=>new SelectListItem { Text=x, Value=x })"></select>
+    <br />
+</form>

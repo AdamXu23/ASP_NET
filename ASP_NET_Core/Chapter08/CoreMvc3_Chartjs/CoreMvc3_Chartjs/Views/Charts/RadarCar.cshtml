@@ -1,0 +1,29 @@
+﻿
+@{
+    ViewData["Title"] = "RadarCar";
+    var footerText = "汽車雜誌編輯評比";
+}
+
+<div class="jumbotron alert-success p-3">
+    <h2>以Radar Chart繪製車種不同面向比較</h2>
+</div>
+
+<div class="row">
+    <div class=" col-md-8 offset-md-2">
+        <div class="card text-center">
+            <div class="card-header">
+                <h3>Radar雷達圖 - SUV與轎車六大面向比較</h3>
+            </div>
+            <div class="card-body">
+                <canvas id="RadarChart"></canvas>
+            </div>
+            <div class="card-footer text-muted">
+                <h4>@footerText</h4>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section endJS{ 
+    <script src="~/js/RadarChart.js"></script>
+}

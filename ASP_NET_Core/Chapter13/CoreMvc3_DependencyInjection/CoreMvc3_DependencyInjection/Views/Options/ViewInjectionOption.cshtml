@@ -1,0 +1,15 @@
+﻿@using Microsoft.Extensions.Options
+
+@inject IOptionsMonitor<FoodOptions> foodOption
+
+@{
+    var foods = foodOption.CurrentValue;
+}
+
+<p>開胃菜 : @foods.Appetizer</p>
+
+<p>主  菜 : @foods.MainCourse</p>
+
+<p>餐後點心: @foods.Dessert</p>
+
+<p>飲料 : @foods.Beverage</p>

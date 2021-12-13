@@ -1,0 +1,81 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link href="../lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <script src="../lib/jquery/dist/jquery.min.js"></script>
+    <script src="../lib/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="jumbotron">
+            <h2>JSON字串的Object與Array兩種結構表示法</h2>
+            <h4>JSON是單純字串，不是物件，不屬於JavaScript或C#，JSON是語言中立的文字交換格式。</h4>
+        </div>
+
+        <p id="p1" class="alert alert-danger"></p>
+        <p id="p2" class="alert alert-info"></p>
+        <p id="p3" class="alert alert-success"></p>
+        <p id="p4" class="alert alert-info"></p>
+        <p id="p5" class="alert alert-warning"></p>
+        <p id="p6" class="alert alert-danger"></p>
+        <p id="p7" class="alert alert-info"></p>
+        <p id="p8" class="alert alert-success"></p>
+    </div>
+
+    <script>
+        //JSON物件結構
+        var JsonMan = '{ "firstname" : "David", "age" : 30, "city" : "Taipei" }';
+
+        var JsonEmployee = '{ "employee" : { "name" : "Tim", "age": 30, "city" : "New York" } }';
+
+        var JsonPerson = '{ "firstname" : "聖殿祭司", "height" : 180, "city" : { "通訊地址" : "台北", "戶籍地址" : "桃園" }, "phone" : { "市話" : "02-29881055", "行動電話" : "0933-852177" }, "cars" : ["BMW","Nissan GT-R","Audi"] }';
+
+
+        //JSON陣列結構--value為Number
+        var JsonArray_Num = '[1, 3, 5, 7, 9]';
+
+        //JSON陣列結構--value為String
+        var JsonArray_String = '["Mary", "John", "Tom"]';
+
+        //JSON陣列結構--value為Object
+        var JsonArray_Object = '[{"firstname" : "Mary", "age" : 28, "city" : "New York" }, { "firstname" : "John", "age" :36, "city" : "Tokyo" }, { "firstname" : "Tom", "age" : 30, "city" : "Taipei" }]';
+
+        //JSON陣列結構--value為Array
+        var JsonArray_Array = '[["Dog","Cat","Mouse"], ["Horse","Cow","Sheep"], ["Bird","Eagle","Parrot"]]';
+
+        //JSON陣列結構--value為混合不同型別
+        var JsonArray_Mixed = '["Mary", 168, [36,24,36] , { "firstname" : "Mary", "age" : 28, "city" : "New York"} , { "friends": ["John","Anna","Peter"] }]';
+
+        //設定Tooltips
+        document.getElementById("p1").innerHTML = JsonMan;
+        document.getElementById("p2").innerHTML = JsonEmployee;
+        document.getElementById("p3").innerHTML = JsonPerson;
+        document.getElementById("p4").innerHTML = JsonArray_Num;
+        document.getElementById("p5").innerHTML = JsonArray_String;
+        document.getElementById("p6").innerHTML = JsonArray_Object;
+        document.getElementById("p7").innerHTML = JsonArray_Array;
+        document.getElementById("p8").innerHTML = JsonArray_Mixed;
+
+        //data-toggle="tooltip" data-placement="left" title="Tooltip on left"
+        $("p").attr({
+            "data-toggle": "tooltip",
+            "data-placement": "top",
+        });
+        $("#p1").attr("title", "JSON的Object物件結構表示法");
+        $("#p2").attr("title", "JSON的Object物件結構表示法");
+        $("#p3").attr("title", "JSON的Object物件結構表示法");
+        $("#p4").attr("title", "JSON的Array陣列結構表示法");
+        $("#p5").attr("title", "JSON的Array陣列結構表示法");
+        $("#p6").attr("title", "JSON的Array陣列結構表示法");
+        $("#p7").attr("title", "JSON的Array陣列結構表示法");
+        $("#p8").attr("title", "JSON的Array陣列結構表示法");
+        $('[data-toggle="tooltip"]').tooltip('show');
+        //$("p").tooltip("show");
+
+
+        setTimeout(function () { $('[data-toggle="tooltip"]').tooltip('hide'); }, 5000);
+    </script>
+</body>
+</html>

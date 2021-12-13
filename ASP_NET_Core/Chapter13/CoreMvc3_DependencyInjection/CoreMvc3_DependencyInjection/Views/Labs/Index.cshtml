@@ -1,0 +1,17 @@
+﻿@inject IZipcodeService zipcode
+@{
+    ViewData["Title"] = "Index";
+
+    string code = zipcode.QueryZipcode("桃園市", "八德區");
+}
+
+
+
+<h1>Index</h1>
+
+八德區ZipCode: @zipcode.QueryZipcode("桃園市", "八德區")
+
+
+
+
+
