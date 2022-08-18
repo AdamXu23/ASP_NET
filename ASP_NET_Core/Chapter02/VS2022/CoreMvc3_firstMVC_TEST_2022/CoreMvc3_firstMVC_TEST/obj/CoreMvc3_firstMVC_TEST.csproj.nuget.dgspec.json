@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Administrator\\Documents\\GitHub\\ASP_NET\\ASP_NET_Core\\Chapter02\\CoreMvc3_firstMVC_TEST\\CoreMvc3_firstMVC_TEST\\CoreMvc3_firstMVC_TEST.csproj": {}
+    "C:\\Users\\822\\Documents\\GitHub\\ASP_NET\\ASP_NET_Core\\Chapter02\\VS2022\\CoreMvc3_firstMVC_TEST_2022\\CoreMvc3_firstMVC_TEST\\CoreMvc3_firstMVC_TEST.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Administrator\\Documents\\GitHub\\ASP_NET\\ASP_NET_Core\\Chapter02\\CoreMvc3_firstMVC_TEST\\CoreMvc3_firstMVC_TEST\\CoreMvc3_firstMVC_TEST.csproj": {
+    "C:\\Users\\822\\Documents\\GitHub\\ASP_NET\\ASP_NET_Core\\Chapter02\\VS2022\\CoreMvc3_firstMVC_TEST_2022\\CoreMvc3_firstMVC_TEST\\CoreMvc3_firstMVC_TEST.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Administrator\\Documents\\GitHub\\ASP_NET\\ASP_NET_Core\\Chapter02\\CoreMvc3_firstMVC_TEST\\CoreMvc3_firstMVC_TEST\\CoreMvc3_firstMVC_TEST.csproj",
+        "projectUniqueName": "C:\\Users\\822\\Documents\\GitHub\\ASP_NET\\ASP_NET_Core\\Chapter02\\VS2022\\CoreMvc3_firstMVC_TEST_2022\\CoreMvc3_firstMVC_TEST\\CoreMvc3_firstMVC_TEST.csproj",
         "projectName": "CoreMvc3_firstMVC_TEST",
-        "projectPath": "C:\\Users\\Administrator\\Documents\\GitHub\\ASP_NET\\ASP_NET_Core\\Chapter02\\CoreMvc3_firstMVC_TEST\\CoreMvc3_firstMVC_TEST\\CoreMvc3_firstMVC_TEST.csproj",
-        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Administrator\\Documents\\GitHub\\ASP_NET\\ASP_NET_Core\\Chapter02\\CoreMvc3_firstMVC_TEST\\CoreMvc3_firstMVC_TEST\\obj\\",
+        "projectPath": "C:\\Users\\822\\Documents\\GitHub\\ASP_NET\\ASP_NET_Core\\Chapter02\\VS2022\\CoreMvc3_firstMVC_TEST_2022\\CoreMvc3_firstMVC_TEST\\CoreMvc3_firstMVC_TEST.csproj",
+        "packagesPath": "C:\\Users\\822\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\822\\Documents\\GitHub\\ASP_NET\\ASP_NET_Core\\Chapter02\\VS2022\\CoreMvc3_firstMVC_TEST_2022\\CoreMvc3_firstMVC_TEST\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\822\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -55,7 +56,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -67,7 +69,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }
