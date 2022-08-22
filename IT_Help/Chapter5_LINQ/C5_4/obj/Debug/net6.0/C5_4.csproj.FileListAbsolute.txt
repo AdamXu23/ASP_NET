@@ -1,0 +1,15 @@
+C:\Users\822\Documents\GitHub\ASP_NET\IT_Help\Chapter5_LINQ\C5_4\bin\Debug\net6.0\C5_4.exe
+C:\Users\822\Documents\GitHub\ASP_NET\IT_Help\Chapter5_LINQ\C5_4\bin\Debug\net6.0\C5_4.deps.json
+C:\Users\822\Documents\GitHub\ASP_NET\IT_Help\Chapter5_LINQ\C5_4\bin\Debug\net6.0\C5_4.runtimeconfig.json
+C:\Users\822\Documents\GitHub\ASP_NET\IT_Help\Chapter5_LINQ\C5_4\bin\Debug\net6.0\C5_4.dll
+C:\Users\822\Documents\GitHub\ASP_NET\IT_Help\Chapter5_LINQ\C5_4\bin\Debug\net6.0\C5_4.pdb
+C:\Users\822\Documents\GitHub\ASP_NET\IT_Help\Chapter5_LINQ\C5_4\obj\Debug\net6.0\C5_4.csproj.AssemblyReference.cache
+C:\Users\822\Documents\GitHub\ASP_NET\IT_Help\Chapter5_LINQ\C5_4\obj\Debug\net6.0\C5_4.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\822\Documents\GitHub\ASP_NET\IT_Help\Chapter5_LINQ\C5_4\obj\Debug\net6.0\C5_4.AssemblyInfoInputs.cache
+C:\Users\822\Documents\GitHub\ASP_NET\IT_Help\Chapter5_LINQ\C5_4\obj\Debug\net6.0\C5_4.AssemblyInfo.cs
+C:\Users\822\Documents\GitHub\ASP_NET\IT_Help\Chapter5_LINQ\C5_4\obj\Debug\net6.0\C5_4.csproj.CoreCompileInputs.cache
+C:\Users\822\Documents\GitHub\ASP_NET\IT_Help\Chapter5_LINQ\C5_4\obj\Debug\net6.0\C5_4.dll
+C:\Users\822\Documents\GitHub\ASP_NET\IT_Help\Chapter5_LINQ\C5_4\obj\Debug\net6.0\refint\C5_4.dll
+C:\Users\822\Documents\GitHub\ASP_NET\IT_Help\Chapter5_LINQ\C5_4\obj\Debug\net6.0\C5_4.pdb
+C:\Users\822\Documents\GitHub\ASP_NET\IT_Help\Chapter5_LINQ\C5_4\obj\Debug\net6.0\C5_4.genruntimeconfig.cache
+C:\Users\822\Documents\GitHub\ASP_NET\IT_Help\Chapter5_LINQ\C5_4\obj\Debug\net6.0\ref\C5_4.dll
