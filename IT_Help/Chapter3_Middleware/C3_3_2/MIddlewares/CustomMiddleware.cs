@@ -15,7 +15,7 @@ public class CustomMiddleware
     {
         _next = netx;
     }
-    public async Task Invoke (HttpContent context)
+    public async Task Invoke (HttpContext context)
     {
         await context.Response.WriteAsync("use ext start \r\n");
         await _next.Invoke(context);
