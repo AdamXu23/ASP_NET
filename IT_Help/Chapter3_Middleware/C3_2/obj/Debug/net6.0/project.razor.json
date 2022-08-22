@@ -1,5 +1,5 @@
 {
-  "FilePath": "c:\\Users\\822\\Documents\\GitHub\\ASP_NET\\IT_Help\\Chapter3_Middleware\\C3_2_1\\C3_2_1.csproj",
+  "FilePath": "c:\\Users\\822\\Documents\\GitHub\\ASP_NET\\IT_Help\\Chapter3_Middleware\\C3_2\\C3_2.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "6.0",
@@ -16295,7 +16295,7 @@
     ],
     "CSharpLanguageVersion": 1000
   },
-  "RootNamespace": "C3_2_1",
+  "RootNamespace": "C3_2",
   "Documents": [],
   "SerializationFormat": "0.2"
 }
