@@ -5,30 +5,32 @@ using SampleDI.Services;
 namespace SampleDI.Controllers;
 
 [ApiController]
-[Route("[controller]")]
+[Route("api/[controller]")]
 public class SampleController : ControllerBase
 {
-    private static readonly string[] Summaries = new[]
+    public readonly SampleService _sampleService;
+    public readonly ITransient _transient;
+    public readonly IScoped _scoped;
+    public readonly ISingleton _singleton;
+    public SampleController(SampleService sampleService, ITransient transient, IScoped scoped, ISingleton singleton)
     {
-        "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
-    };
-
-    private readonly ILogger<SampleController> _logger;
-
-    public SampleController(ILogger<SampleController> logger)
-    {
-        _logger = logger;
+        _sampleService = sampleService;
+        _transient = transient;
+        _scoped = scoped;
+        _singleton = singleton;
     }
 
-    [HttpGet(Name = "GetWeatherForecast")]
-    public IEnumerable<WeatherForecast> Get()
+    [HttpGet]
+    public ActionResult<IDictionary<string,string>> Get()
     {
-        return Enumerable.Range(1, 5).Select(index => new WeatherForecast
+        var serviceHashCode = _sampleService.GetSampleHashcode();
+        var controllerHashCode = $"Transient: {_transient.GetHashCode()},"
+            + $"Scoped: {_scoped.GetHashCode()},"
+            + $"Singleton: {_singleton.GetHashCode()}";
+        return new Dictionary<string, string>
         {
-            Date = DateTime.Now.AddDays(index),
-            TemperatureC = Random.Shared.Next(-20, 55),
-            Summary = Summaries[Random.Shared.Next(Summaries.Length)]
-        })
-        .ToArray();
+            {"Service",serviceHashCode },
+            {"Controller",controllerHashCode }
+        };
     }
 }

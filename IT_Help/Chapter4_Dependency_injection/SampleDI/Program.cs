@@ -13,3 +13,5 @@ builder.Services.AddScoped<ISingleton, SampleClass>();
 builder.Services.AddScoped<ITransient, SampleClass>();
 builder.Services.AddScoped<SampleService, SampleService>();
 
+var app = builder.Build();
+
